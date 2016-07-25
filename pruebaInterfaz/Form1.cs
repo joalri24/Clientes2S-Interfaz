@@ -60,11 +60,24 @@ namespace pruebaInterfaz
             else
             {
                 controlPestañas.Visible = true;
-                panel.Height = 150;
+                panel.Height = 300;
                 boton.Text = "[-]";
                 boton.ToolTipText = "Minimizar";
             }
 
         }
+
+        private void textBox_leave(object sender, EventArgs e)
+        {
+            TextBox textbox = sender as TextBox;
+            textbox.BorderStyle = BorderStyle.None;
+        }
+
+        private void textbox_click(object sender, EventArgs e)
+        {
+            TextBox textbox = sender as TextBox;
+            textbox.BorderStyle = BorderStyle.Fixed3D;
+        }
     }
+
 }
