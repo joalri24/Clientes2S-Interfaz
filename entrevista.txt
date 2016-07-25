@@ -1,0 +1,47 @@
+2Secure clientes
+
+Manejar "muchos" clientes para que no se pierda la traza.
+LLamarlos a decirles ""hola coma vas?" y saber cuando llamó
+
+Lista de los proyectos con los clientes
+
+Fases de un proyecto:
+  - Acercamiento: uno va a presear portafolio o una va a levantar info.
+  - Envío de info desde el cliente. (dir ip, alcance, etc)
+  - Hacer propuesta con fecha límite.
+  - Seguimiento, especialmente de clientes pequeños.
+
+
+Base de datos de cliente. Estaus de los proyectos. 
+
+Saber la última vez que lo contactaron. 
+
+MUY FACIL Y RÁPIDO DE USAR!!
+
+Usar muchos por defectos y campos opcionales
+
+Web services, REST
+
+Le gusta aplicación de escritorip, en futuro para celular.
+
+Principalmente Sergio, pero la podría utilizar el resto de 2Secure.
+
+"Estos son los Sergio"
+
+Actualizar estado con un click.  
+
+Campo de comentarios
+
+Cliente: 
+  Nombre, compañía, cago, telefonos, cel, email, tipo [intermediarios, directos, ]
+  (vale la pena el seguimiento( pr)
+
+
+
+  1 empresa, muchos contactos.  
+  Tareas -> descripción, una sola fecha (ellos entiendrn) Tareas asociadas a una empresa no una persona. Las tareas tienen asociada un encargado. Estado:
+  Urgente,  (manejo de colores) finalizado, finalizado ),   Tareas -> descripción, una sola fecha (ellos entiendrn).
+
+  Siempre en ejecución, no tener que buscar el archivo en el explorador, como si estuviera en la barra de herramientas.
+
+  Base de datos centralizado. 
