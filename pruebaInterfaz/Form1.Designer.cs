@@ -69,11 +69,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.menuStrip2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -85,6 +87,10 @@
             this.toolStrip3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -466,20 +472,38 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.AutoScroll = true;
+            this.tabPage1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.tabPage1.Controls.Add(this.splitContainer1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1080, 139);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Resumen";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.BackColor = System.Drawing.Color.Transparent;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.groupBox1);
+            this.splitContainer1.Panel1MinSize = 400;
+            this.splitContainer1.Panel2MinSize = 400;
+            this.splitContainer1.Size = new System.Drawing.Size(1074, 133);
+            this.splitContainer1.SplitterDistance = 400;
+            this.splitContainer1.TabIndex = 0;
             // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1063, 139);
+            this.tabPage2.Size = new System.Drawing.Size(1080, 139);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tareas";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -489,7 +513,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1063, 139);
+            this.tabPage7.Size = new System.Drawing.Size(1080, 139);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "Contactos";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -525,6 +549,17 @@
             this.toolStripLabel1.Size = new System.Drawing.Size(142, 22);
             this.toolStripLabel1.Text = "Empresa Pepito (Urgente)";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(400, 133);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Información General";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -535,6 +570,8 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1125, 567);
+            this.MinimumSize = new System.Drawing.Size(1114, 567);
             this.Name = "Form1";
             this.Text = "2Secure - Clientes";
             this.menuStrip2.ResumeLayout(false);
@@ -555,6 +592,10 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -608,6 +649,8 @@
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
