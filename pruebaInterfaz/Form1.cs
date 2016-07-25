@@ -67,16 +67,42 @@ namespace pruebaInterfaz
 
         }
 
+        /// <summary>
+        /// Cambia el borde de los campos de texto cuando dejan de ser
+        /// el componente activo del formulario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBox_leave(object sender, EventArgs e)
         {
             TextBox textbox = sender as TextBox;
             textbox.BorderStyle = BorderStyle.None;
         }
 
+        /// <summary>
+        /// Cambia el borde de los campos de texto cuando se convierten
+        /// en el componente activo del formulario (o se hace click sobre ellos).
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textbox_click(object sender, EventArgs e)
         {
             TextBox textbox = sender as TextBox;
             textbox.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        /// <summary>
+        /// Cambia el estado según el tag ue tenga asociado el botón.
+        /// De paso cambia el color de la barra donde aparece su nombre.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CambiarEstado_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem boton = sender as ToolStripMenuItem;
+            //TODO
+
+
         }
     }
 

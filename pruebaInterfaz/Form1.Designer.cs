@@ -86,12 +86,20 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -102,14 +110,6 @@
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.normalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atenciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -724,6 +724,30 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Información general";
             // 
+            // textBox5
+            // 
+            this.textBox5.AcceptsReturn = true;
+            this.textBox5.AcceptsTab = true;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(9, 143);
+            this.textBox5.MinimumSize = new System.Drawing.Size(4, 90);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox5.Size = new System.Drawing.Size(401, 90);
+            this.textBox5.TabIndex = 7;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.Brown;
+            this.label24.Location = new System.Drawing.Point(7, 122);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(98, 18);
+            this.label24.TabIndex = 6;
+            this.label24.Text = "Comentarios:";
+            // 
             // comboBox2
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -808,6 +832,75 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contacto principal";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(139, 133);
+            this.dateTimePicker1.MaxDate = new System.DateTime(2200, 12, 31, 0, 0, 0, 0);
+            this.dateTimePicker1.MinDate = new System.DateTime(2010, 1, 1, 0, 0, 0, 0);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(238, 21);
+            this.dateTimePicker1.TabIndex = 11;
+            this.dateTimePicker1.Tag = "La fecha de la última vez que se contactó al cliente.";
+            this.dateTimePicker1.Value = new System.DateTime(2016, 7, 25, 15, 31, 15, 0);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Brown;
+            this.label23.Location = new System.Drawing.Point(16, 135);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(117, 18);
+            this.label23.TabIndex = 10;
+            this.label23.Text = "Último contacto:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label22.Location = new System.Drawing.Point(254, 77);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(12, 18);
+            this.label22.TabIndex = 9;
+            this.label22.Text = "/";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(272, 77);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(258, 17);
+            this.textBox4.TabIndex = 8;
+            this.textBox4.Text = "ppeito.345@pepito.org.co";
+            this.textBox4.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox4.Leave += new System.EventHandler(this.textBox_leave);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Brown;
+            this.label21.Location = new System.Drawing.Point(16, 76);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(79, 18);
+            this.label21.TabIndex = 7;
+            this.label21.Text = "Tel / email:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(111, 77);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(137, 17);
+            this.textBox3.TabIndex = 6;
+            this.textBox3.Text = "3123206278 -56";
+            this.textBox3.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox3.Leave += new System.EventHandler(this.textBox_leave);
+            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -871,7 +964,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1086, 220);
+            this.tabPage2.Size = new System.Drawing.Size(1086, 270);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tareas";
             // 
@@ -881,7 +974,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1086, 220);
+            this.tabPage7.Size = new System.Drawing.Size(1086, 270);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "Contactos";
             // 
@@ -917,99 +1010,6 @@
             this.toolStripLabel1.Size = new System.Drawing.Size(142, 22);
             this.toolStripLabel1.Text = "Empresa Pepito (Urgente)";
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Brown;
-            this.label21.Location = new System.Drawing.Point(16, 76);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(79, 18);
-            this.label21.TabIndex = 7;
-            this.label21.Text = "Tel / email:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(111, 77);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(137, 17);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "3123206278 -56";
-            this.textBox3.Enter += new System.EventHandler(this.textbox_click);
-            this.textBox3.Leave += new System.EventHandler(this.textBox_leave);
-            // 
-            // textBox4
-            // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(272, 77);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(258, 17);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "ppeito.345@pepito.org.co";
-            this.textBox4.Enter += new System.EventHandler(this.textbox_click);
-            this.textBox4.Leave += new System.EventHandler(this.textBox_leave);
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label22.Location = new System.Drawing.Point(254, 77);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(12, 18);
-            this.label22.TabIndex = 9;
-            this.label22.Text = "/";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.Brown;
-            this.label23.Location = new System.Drawing.Point(16, 135);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(117, 18);
-            this.label23.TabIndex = 10;
-            this.label23.Text = "Último contacto:";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(139, 133);
-            this.dateTimePicker1.MaxDate = new System.DateTime(2200, 12, 31, 0, 0, 0, 0);
-            this.dateTimePicker1.MinDate = new System.DateTime(2010, 1, 1, 0, 0, 0, 0);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(238, 21);
-            this.dateTimePicker1.TabIndex = 11;
-            this.dateTimePicker1.Tag = "La fecha de la última vez que se contactó al cliente.";
-            this.dateTimePicker1.Value = new System.DateTime(2016, 7, 25, 15, 31, 15, 0);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.Brown;
-            this.label24.Location = new System.Drawing.Point(7, 122);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(98, 18);
-            this.label24.TabIndex = 6;
-            this.label24.Text = "Comentarios:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.AcceptsReturn = true;
-            this.textBox5.AcceptsTab = true;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(9, 143);
-            this.textBox5.MinimumSize = new System.Drawing.Size(0, 90);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(401, 90);
-            this.textBox5.TabIndex = 7;
-            // 
             // toolStripDropDownButton1
             // 
             this.toolStripDropDownButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
@@ -1030,6 +1030,7 @@
             this.normalToolStripMenuItem.Name = "normalToolStripMenuItem";
             this.normalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.normalToolStripMenuItem.Text = "Normal";
+            this.normalToolStripMenuItem.Click += new System.EventHandler(this.CambiarEstado_Click);
             // 
             // atenciónToolStripMenuItem
             // 
@@ -1037,6 +1038,7 @@
             this.atenciónToolStripMenuItem.Name = "atenciónToolStripMenuItem";
             this.atenciónToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.atenciónToolStripMenuItem.Text = "Atención";
+            this.atenciónToolStripMenuItem.Click += new System.EventHandler(this.CambiarEstado_Click);
             // 
             // urgenteToolStripMenuItem
             // 
@@ -1044,6 +1046,7 @@
             this.urgenteToolStripMenuItem.Name = "urgenteToolStripMenuItem";
             this.urgenteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.urgenteToolStripMenuItem.Text = "Urgente";
+            this.urgenteToolStripMenuItem.Click += new System.EventHandler(this.CambiarEstado_Click);
             // 
             // Form1
             // 
