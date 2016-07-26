@@ -94,10 +94,10 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -110,10 +110,8 @@
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.normalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.atenciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.urgenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripComboBox_Estado = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.menuStrip2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -735,7 +733,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox5.Size = new System.Drawing.Size(401, 90);
-            this.textBox5.TabIndex = 7;
+            this.textBox5.TabIndex = 3;
             // 
             // label24
             // 
@@ -759,7 +757,8 @@
             this.comboBox2.Location = new System.Drawing.Point(129, 89);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 26);
-            this.comboBox2.TabIndex = 5;
+            this.comboBox2.TabIndex = 2;
+            this.comboBox2.Text = "Hacer";
             // 
             // label18
             // 
@@ -782,7 +781,7 @@
             this.comboBox1.Location = new System.Drawing.Point(129, 60);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 26);
-            this.comboBox1.TabIndex = 3;
+            this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "Directo";
             // 
             // label17
@@ -813,34 +812,58 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.textBox6);
             this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.label23);
-            this.groupBox2.Controls.Add(this.label22);
-            this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label21);
             this.groupBox2.Controls.Add(this.textBox3);
             this.groupBox2.Controls.Add(this.label20);
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.label19);
             this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.ForeColor = System.Drawing.Color.Brown;
             this.groupBox2.Location = new System.Drawing.Point(428, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(632, 244);
+            this.groupBox2.Size = new System.Drawing.Size(632, 196);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contacto principal";
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Brown;
+            this.label16.Location = new System.Drawing.Point(16, 99);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(59, 18);
+            this.label16.TabIndex = 13;
+            this.label16.Text = "Correo:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(171, 99);
+            this.textBox6.MaxLength = 30;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(229, 17);
+            this.textBox6.TabIndex = 7;
+            this.textBox6.Text = "ppeito.345@pepito.org.co";
+            this.textBox6.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox6.Leave += new System.EventHandler(this.textBox_leave);
+            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(139, 133);
+            this.dateTimePicker1.Location = new System.Drawing.Point(139, 160);
             this.dateTimePicker1.MaxDate = new System.DateTime(2200, 12, 31, 0, 0, 0, 0);
             this.dateTimePicker1.MinDate = new System.DateTime(2010, 1, 1, 0, 0, 0, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(238, 21);
-            this.dateTimePicker1.TabIndex = 11;
+            this.dateTimePicker1.TabIndex = 8;
             this.dateTimePicker1.Tag = "La fecha de la última vez que se contactó al cliente.";
             this.dateTimePicker1.Value = new System.DateTime(2016, 7, 25, 15, 31, 15, 0);
             // 
@@ -849,34 +872,11 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.Brown;
-            this.label23.Location = new System.Drawing.Point(16, 135);
+            this.label23.Location = new System.Drawing.Point(16, 162);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(117, 18);
             this.label23.TabIndex = 10;
             this.label23.Text = "Último contacto:";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label22.Location = new System.Drawing.Point(254, 77);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(12, 18);
-            this.label22.TabIndex = 9;
-            this.label22.Text = "/";
-            // 
-            // textBox4
-            // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(272, 77);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(258, 17);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "ppeito.345@pepito.org.co";
-            this.textBox4.Enter += new System.EventHandler(this.textbox_click);
-            this.textBox4.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label21
             // 
@@ -885,15 +885,16 @@
             this.label21.ForeColor = System.Drawing.Color.Brown;
             this.label21.Location = new System.Drawing.Point(16, 76);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(79, 18);
+            this.label21.Size = new System.Drawing.Size(70, 18);
             this.label21.TabIndex = 7;
-            this.label21.Text = "Tel / email:";
+            this.label21.Text = "Teléfono:";
             // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(111, 77);
+            this.textBox3.Location = new System.Drawing.Point(171, 76);
+            this.textBox3.MaxLength = 30;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(137, 17);
             this.textBox3.TabIndex = 6;
@@ -916,10 +917,11 @@
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(111, 53);
+            this.textBox2.Location = new System.Drawing.Point(171, 53);
+            this.textBox2.MaxLength = 30;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(229, 17);
-            this.textBox2.TabIndex = 4;
+            this.textBox2.TabIndex = 5;
             this.textBox2.Text = "Director de TI";
             this.textBox2.Enter += new System.EventHandler(this.textbox_click);
             this.textBox2.Leave += new System.EventHandler(this.textBox_leave);
@@ -939,10 +941,11 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(111, 30);
+            this.textBox1.Location = new System.Drawing.Point(171, 30);
+            this.textBox1.MaxLength = 30;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(229, 17);
-            this.textBox1.TabIndex = 0;
+            this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Don Pepito Ramirez de Peña";
             this.textBox1.Enter += new System.EventHandler(this.textbox_click);
             this.textBox1.Leave += new System.EventHandler(this.textBox_leave);
@@ -984,7 +987,8 @@
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripLabel1,
-            this.toolStripDropDownButton1});
+            this.toolStripComboBox_Estado,
+            this.toolStripLabel4});
             this.toolStrip2.Location = new System.Drawing.Point(0, 0);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.Size = new System.Drawing.Size(1094, 25);
@@ -1010,43 +1014,25 @@
             this.toolStripLabel1.Size = new System.Drawing.Size(142, 22);
             this.toolStripLabel1.Text = "Empresa Pepito (Urgente)";
             // 
-            // toolStripDropDownButton1
+            // toolStripComboBox_Estado
             // 
-            this.toolStripDropDownButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.normalToolStripMenuItem,
-            this.atenciónToolStripMenuItem,
-            this.urgenteToolStripMenuItem});
-            this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
-            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(103, 22);
-            this.toolStripDropDownButton1.Text = "Cambiar Estado";
+            this.toolStripComboBox_Estado.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripComboBox_Estado.BackColor = System.Drawing.Color.Salmon;
+            this.toolStripComboBox_Estado.Items.AddRange(new object[] {
+            "Urgente",
+            "Atención",
+            "Normal"});
+            this.toolStripComboBox_Estado.Name = "toolStripComboBox_Estado";
+            this.toolStripComboBox_Estado.Size = new System.Drawing.Size(80, 25);
+            this.toolStripComboBox_Estado.Text = "Urgente";
+            this.toolStripComboBox_Estado.TextChanged += new System.EventHandler(this.CambiarEstado_changeText);
             // 
-            // normalToolStripMenuItem
+            // toolStripLabel4
             // 
-            this.normalToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
-            this.normalToolStripMenuItem.Name = "normalToolStripMenuItem";
-            this.normalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.normalToolStripMenuItem.Text = "Normal";
-            this.normalToolStripMenuItem.Click += new System.EventHandler(this.CambiarEstado_Click);
-            // 
-            // atenciónToolStripMenuItem
-            // 
-            this.atenciónToolStripMenuItem.BackColor = System.Drawing.Color.SandyBrown;
-            this.atenciónToolStripMenuItem.Name = "atenciónToolStripMenuItem";
-            this.atenciónToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.atenciónToolStripMenuItem.Text = "Atención";
-            this.atenciónToolStripMenuItem.Click += new System.EventHandler(this.CambiarEstado_Click);
-            // 
-            // urgenteToolStripMenuItem
-            // 
-            this.urgenteToolStripMenuItem.BackColor = System.Drawing.Color.IndianRed;
-            this.urgenteToolStripMenuItem.Name = "urgenteToolStripMenuItem";
-            this.urgenteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.urgenteToolStripMenuItem.Text = "Urgente";
-            this.urgenteToolStripMenuItem.Click += new System.EventHandler(this.CambiarEstado_Click);
+            this.toolStripLabel4.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripLabel4.Name = "toolStripLabel4";
+            this.toolStripLabel4.Size = new System.Drawing.Size(48, 22);
+            this.toolStripLabel4.Text = "Estado: ";
             // 
             // Form1
             // 
@@ -1171,18 +1157,16 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
-        private System.Windows.Forms.ToolStripMenuItem normalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem atenciónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem urgenteToolStripMenuItem;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.ToolStripComboBox toolStripComboBox_Estado;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel4;
     }
 }
 

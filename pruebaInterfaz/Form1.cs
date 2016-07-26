@@ -97,11 +97,27 @@ namespace pruebaInterfaz
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void CambiarEstado_Click(object sender, EventArgs e)
+        private void CambiarEstado_changeText(object sender, EventArgs e)
         {
-            ToolStripMenuItem boton = sender as ToolStripMenuItem;
-            //TODO
+            ToolStripComboBox comboBox = sender as ToolStripComboBox;
+            Control barra = comboBox.GetCurrentParent();
 
+            if (comboBox.Text == "Urgente")
+            {
+                barra.BackColor = Color.IndianRed;
+                comboBox.BackColor = Color.Salmon;
+            }
+            else if (comboBox.Text == "Atención")
+            {
+                barra.BackColor = Color.SandyBrown;
+                comboBox.BackColor = Color.PeachPuff;
+            }
+            else if (comboBox.Text == "Normal")
+            {
+                barra.BackColor = Color.Linen;
+                comboBox.BackColor = Color.Linen;
+            }
+                    
 
         }
     }
