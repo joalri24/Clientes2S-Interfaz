@@ -138,21 +138,20 @@ namespace pruebaInterfaz
             if (boton.Text == "Urgente")
             {
                 barra.BackColor = Color.IndianRed;
-                boton.BackColor = Color.Salmon;
+                boton.BackColor = Color.Firebrick;
 
             }
             else if (boton.Text == "Atención")
             {
                 barra.BackColor = Color.SandyBrown;
-                boton.BackColor = Color.PeachPuff;
+                boton.BackColor = Color.DarkOrange;
             }
             else if (boton.Text == "Normal")
             {
                 barra.BackColor = Color.Linen;
-                boton.BackColor = Color.Linen;
+                boton.BackColor = Color.LightGray;
             }
         }
-
     }
 
 }

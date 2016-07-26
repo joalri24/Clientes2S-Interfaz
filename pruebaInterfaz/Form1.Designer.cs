@@ -38,7 +38,7 @@
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ventanaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripVentana = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.saveToolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -50,29 +50,6 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.helpToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.tabControl3 = new System.Windows.Forms.TabControl();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.toolStrip4 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -81,16 +58,16 @@
             this.toolStrip3 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.panel = new System.Windows.Forms.Panel();
+            this.panelCliente = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -106,34 +83,101 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.flowLayoutTarea = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelTarea = new System.Windows.Forms.Panel();
+            this.splitContainerTarea = new System.Windows.Forms.SplitContainer();
+            this.groupBoxDescripcionTarea = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.toolStripCliente = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripComboBox_Estado = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripComboBox_Estado = new System.Windows.Forms.ToolStripComboBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.label10 = new System.Windows.Forms.Label();
+            this.toolStrip4 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
             this.menuStrip2.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
+            this.toolStripVentana.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.tabControl3.SuspendLayout();
-            this.tabPage9.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.toolStrip4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.toolStrip3.SuspendLayout();
-            this.panel.SuspendLayout();
+            this.panelCliente.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.flowLayoutTarea.SuspendLayout();
+            this.panelTarea.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTarea)).BeginInit();
+            this.splitContainerTarea.Panel1.SuspendLayout();
+            this.splitContainerTarea.Panel2.SuspendLayout();
+            this.splitContainerTarea.SuspendLayout();
+            this.groupBoxDescripcionTarea.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.toolStrip2.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.toolStripCliente.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.toolStrip4.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip2
@@ -145,7 +189,7 @@
             this.ayudaToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1109, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(1073, 24);
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -202,9 +246,9 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // toolStrip1
+            // toolStripVentana
             // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripVentana.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newToolStripButton1,
             this.openToolStripButton1,
             this.saveToolStripButton1,
@@ -215,11 +259,11 @@
             this.pasteToolStripButton1,
             this.toolStripSeparator3,
             this.helpToolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1109, 25);
-            this.toolStrip1.TabIndex = 2;
-            this.toolStrip1.Text = "toolStrip1";
+            this.toolStripVentana.Location = new System.Drawing.Point(0, 24);
+            this.toolStripVentana.Name = "toolStripVentana";
+            this.toolStripVentana.Size = new System.Drawing.Size(1073, 25);
+            this.toolStripVentana.TabIndex = 2;
+            this.toolStripVentana.Text = "toolStrip1";
             // 
             // newToolStripButton1
             // 
@@ -309,9 +353,8 @@
             this.tableLayoutPanel1.AutoScroll = true;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.panel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panelCliente, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 49);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -321,265 +364,18 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1109, 480);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1073, 480);
             this.tableLayoutPanel1.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.tabControl3);
-            this.panel3.Controls.Add(this.toolStrip4);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 534);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1103, 194);
-            this.panel3.TabIndex = 3;
-            // 
-            // tabControl3
-            // 
-            this.tabControl3.Controls.Add(this.tabPage5);
-            this.tabControl3.Controls.Add(this.tabPage6);
-            this.tabControl3.Controls.Add(this.tabPage9);
-            this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl3.Location = new System.Drawing.Point(0, 25);
-            this.tabControl3.Name = "tabControl3";
-            this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(1099, 165);
-            this.tabControl3.TabIndex = 1;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1091, 139);
-            this.tabPage5.TabIndex = 0;
-            this.tabPage5.Text = "Resumen";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1091, 139);
-            this.tabPage6.TabIndex = 1;
-            this.tabPage6.Text = "Tareas";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.AutoScroll = true;
-            this.tabPage9.Controls.Add(this.flowLayoutPanel1);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1091, 139);
-            this.tabPage9.TabIndex = 2;
-            this.tabPage9.Text = "Contactos";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.label1);
-            this.flowLayoutPanel1.Controls.Add(this.label2);
-            this.flowLayoutPanel1.Controls.Add(this.label3);
-            this.flowLayoutPanel1.Controls.Add(this.label4);
-            this.flowLayoutPanel1.Controls.Add(this.label5);
-            this.flowLayoutPanel1.Controls.Add(this.label6);
-            this.flowLayoutPanel1.Controls.Add(this.label7);
-            this.flowLayoutPanel1.Controls.Add(this.label8);
-            this.flowLayoutPanel1.Controls.Add(this.label9);
-            this.flowLayoutPanel1.Controls.Add(this.label10);
-            this.flowLayoutPanel1.Controls.Add(this.label11);
-            this.flowLayoutPanel1.Controls.Add(this.label12);
-            this.flowLayoutPanel1.Controls.Add(this.label13);
-            this.flowLayoutPanel1.Controls.Add(this.label14);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(378, 19);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 600);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 31);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(95, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 31);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 31);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(95, 31);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 31);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 62);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 31);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "label5";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(95, 62);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 31);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "label6";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(3, 93);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 31);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(95, 93);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(86, 31);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(3, 124);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 31);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "label9";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(95, 124);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(101, 31);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "label10";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(3, 155);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(101, 31);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "label11";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 186);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(101, 31);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "label12";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(3, 217);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(101, 31);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "label13";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(3, 248);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 31);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "label14";
-            // 
-            // toolStrip4
-            // 
-            this.toolStrip4.BackColor = System.Drawing.Color.Linen;
-            this.toolStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton3,
-            this.toolStripLabel3});
-            this.toolStrip4.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip4.Name = "toolStrip4";
-            this.toolStrip4.Size = new System.Drawing.Size(1099, 25);
-            this.toolStrip4.TabIndex = 0;
-            this.toolStrip4.Text = "toolStrip4";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.AutoSize = false;
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "[-]";
-            this.toolStripButton3.ToolTipText = "Minimizar";
-            this.toolStripButton3.Click += new System.EventHandler(this.minimizarFila_Click);
-            // 
-            // toolStripLabel3
-            // 
-            this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(89, 22);
-            this.toolStripLabel3.Text = "Empresa Pepito";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.tabControl2);
             this.panel1.Controls.Add(this.toolStrip3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 334);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1103, 194);
+            this.panel1.Size = new System.Drawing.Size(1067, 194);
             this.panel1.TabIndex = 2;
             // 
             // tabControl2
@@ -591,7 +387,7 @@
             this.tabControl2.Location = new System.Drawing.Point(0, 25);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1099, 165);
+            this.tabControl2.Size = new System.Drawing.Size(1063, 165);
             this.tabControl2.TabIndex = 1;
             // 
             // tabPage3
@@ -600,7 +396,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1091, 139);
+            this.tabPage3.Size = new System.Drawing.Size(1055, 139);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Resumen";
             // 
@@ -609,7 +405,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1091, 139);
+            this.tabPage4.Size = new System.Drawing.Size(1055, 139);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Tareas";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -619,7 +415,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1091, 139);
+            this.tabPage8.Size = new System.Drawing.Size(1055, 139);
             this.tabPage8.TabIndex = 2;
             this.tabPage8.Text = "Contactos";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -632,7 +428,7 @@
             this.toolStripLabel2});
             this.toolStrip3.Location = new System.Drawing.Point(0, 0);
             this.toolStrip3.Name = "toolStrip3";
-            this.toolStrip3.Size = new System.Drawing.Size(1099, 25);
+            this.toolStrip3.Size = new System.Drawing.Size(1063, 25);
             this.toolStrip3.TabIndex = 0;
             this.toolStrip3.Text = "toolStrip3";
             // 
@@ -654,16 +450,17 @@
             this.toolStripLabel2.Size = new System.Drawing.Size(148, 22);
             this.toolStripLabel2.Text = "Empresa Pepito (Atención)";
             // 
-            // panel
+            // panelCliente
             // 
-            this.panel.BackColor = System.Drawing.SystemColors.Control;
-            this.panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel.Controls.Add(this.tabControl1);
-            this.panel.Controls.Add(this.toolStrip2);
-            this.panel.Location = new System.Drawing.Point(3, 3);
-            this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(1098, 325);
-            this.panel.TabIndex = 1;
+            this.panelCliente.BackColor = System.Drawing.SystemColors.Control;
+            this.panelCliente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelCliente.Controls.Add(this.tabControl1);
+            this.panelCliente.Controls.Add(this.toolStripCliente);
+            this.panelCliente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelCliente.Location = new System.Drawing.Point(3, 3);
+            this.panelCliente.Name = "panelCliente";
+            this.panelCliente.Size = new System.Drawing.Size(1067, 325);
+            this.panelCliente.TabIndex = 1;
             // 
             // tabControl1
             // 
@@ -674,7 +471,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 25);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1094, 296);
+            this.tabControl1.Size = new System.Drawing.Size(1063, 296);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -685,7 +482,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1086, 270);
+            this.tabPage1.Size = new System.Drawing.Size(1055, 270);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Resumen";
             // 
@@ -704,27 +501,53 @@
             this.tableLayoutPanel.RowCount = 2;
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(1063, 300);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(1032, 300);
             this.tableLayoutPanel.TabIndex = 0;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.label24);
-            this.groupBox1.Controls.Add(this.comboBox2);
             this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.ForeColor = System.Drawing.Color.Brown;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(419, 244);
+            this.groupBox1.Size = new System.Drawing.Size(406, 244);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Información general";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(157, 63);
+            this.textBox4.MaxLength = 30;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(229, 17);
+            this.textBox4.TabIndex = 8;
+            this.textBox4.Text = "Directo";
+            this.textBox4.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox4.Leave += new System.EventHandler(this.textBox_leave);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.checkBox1.Location = new System.Drawing.Point(157, 95);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.checkBox1.Size = new System.Drawing.Size(145, 21);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "Hacer seguimiento";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox5
             // 
@@ -736,7 +559,7 @@
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(401, 90);
+            this.textBox5.Size = new System.Drawing.Size(391, 90);
             this.textBox5.TabIndex = 3;
             // 
             // label24
@@ -750,20 +573,6 @@
             this.label24.TabIndex = 6;
             this.label24.Text = "Comentarios:";
             // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Hacer",
-            "No hacer",
-            ""});
-            this.comboBox2.Location = new System.Drawing.Point(129, 89);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 26);
-            this.comboBox2.TabIndex = 2;
-            this.comboBox2.Text = "Hacer";
-            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -774,19 +583,6 @@
             this.label18.Size = new System.Drawing.Size(94, 18);
             this.label18.TabIndex = 4;
             this.label18.Text = "Seguimiento:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Directo",
-            "Intermediario"});
-            this.comboBox1.Location = new System.Drawing.Point(129, 60);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 26);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.Text = "Directo";
             // 
             // label17
             // 
@@ -828,9 +624,9 @@
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox2.Location = new System.Drawing.Point(428, 3);
+            this.groupBox2.Location = new System.Drawing.Point(415, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(632, 196);
+            this.groupBox2.Size = new System.Drawing.Size(614, 196);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contacto principal";
@@ -862,7 +658,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(139, 160);
+            this.dateTimePicker1.Location = new System.Drawing.Point(171, 159);
             this.dateTimePicker1.MaxDate = new System.DateTime(2200, 12, 31, 0, 0, 0, 0);
             this.dateTimePicker1.MinDate = new System.DateTime(2010, 1, 1, 0, 0, 0, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -960,7 +756,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Location = new System.Drawing.Point(3, 253);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1057, 44);
+            this.groupBox3.Size = new System.Drawing.Size(1026, 44);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
@@ -968,12 +764,294 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage2.Controls.Add(this.flowLayoutTarea);
+            this.tabPage2.Controls.Add(this.toolStrip1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1086, 270);
+            this.tabPage2.Size = new System.Drawing.Size(1055, 270);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tareas";
+            // 
+            // flowLayoutTarea
+            // 
+            this.flowLayoutTarea.AutoScroll = true;
+            this.flowLayoutTarea.BackColor = System.Drawing.SystemColors.Control;
+            this.flowLayoutTarea.Controls.Add(this.panelTarea);
+            this.flowLayoutTarea.Controls.Add(this.panel2);
+            this.flowLayoutTarea.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutTarea.Location = new System.Drawing.Point(27, 3);
+            this.flowLayoutTarea.Name = "flowLayoutTarea";
+            this.flowLayoutTarea.Size = new System.Drawing.Size(1025, 264);
+            this.flowLayoutTarea.TabIndex = 1;
+            // 
+            // panelTarea
+            // 
+            this.panelTarea.Controls.Add(this.splitContainerTarea);
+            this.panelTarea.Controls.Add(this.toolStrip2);
+            this.panelTarea.Location = new System.Drawing.Point(3, 3);
+            this.panelTarea.Name = "panelTarea";
+            this.panelTarea.Size = new System.Drawing.Size(1019, 221);
+            this.panelTarea.TabIndex = 0;
+            // 
+            // splitContainerTarea
+            // 
+            this.splitContainerTarea.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerTarea.Location = new System.Drawing.Point(0, 25);
+            this.splitContainerTarea.Name = "splitContainerTarea";
+            // 
+            // splitContainerTarea.Panel1
+            // 
+            this.splitContainerTarea.Panel1.Controls.Add(this.groupBoxDescripcionTarea);
+            this.splitContainerTarea.Panel1MinSize = 500;
+            // 
+            // splitContainerTarea.Panel2
+            // 
+            this.splitContainerTarea.Panel2.Controls.Add(this.groupBox4);
+            this.splitContainerTarea.Panel2.Controls.Add(this.groupBox5);
+            this.splitContainerTarea.Size = new System.Drawing.Size(1019, 196);
+            this.splitContainerTarea.SplitterDistance = 500;
+            this.splitContainerTarea.TabIndex = 1;
+            // 
+            // groupBoxDescripcionTarea
+            // 
+            this.groupBoxDescripcionTarea.Controls.Add(this.textBox7);
+            this.groupBoxDescripcionTarea.Controls.Add(this.label2);
+            this.groupBoxDescripcionTarea.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxDescripcionTarea.Location = new System.Drawing.Point(0, 0);
+            this.groupBoxDescripcionTarea.Name = "groupBoxDescripcionTarea";
+            this.groupBoxDescripcionTarea.Size = new System.Drawing.Size(500, 196);
+            this.groupBoxDescripcionTarea.TabIndex = 0;
+            this.groupBoxDescripcionTarea.TabStop = false;
+            // 
+            // textBox7
+            // 
+            this.textBox7.AcceptsReturn = true;
+            this.textBox7.Location = new System.Drawing.Point(9, 37);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(488, 112);
+            this.textBox7.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Brown;
+            this.label2.Location = new System.Drawing.Point(6, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 18);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Descripción:";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.AutoSize = true;
+            this.groupBox5.Controls.Add(this.textBox8);
+            this.groupBox5.Controls.Add(this.label3);
+            this.groupBox5.Controls.Add(this.dateTimePicker2);
+            this.groupBox5.Controls.Add(this.label1);
+            this.groupBox5.Location = new System.Drawing.Point(3, 3);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(509, 96);
+            this.groupBox5.TabIndex = 0;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "groupBox5";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(98, 60);
+            this.textBox8.MaxLength = 30;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(229, 17);
+            this.textBox8.TabIndex = 5;
+            this.textBox8.Text = "Don Pepito Ramirez de Peña";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Brown;
+            this.label3.Location = new System.Drawing.Point(6, 60);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 18);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Estado.";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(98, 31);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Brown;
+            this.label1.Location = new System.Drawing.Point(6, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Fecha:";
+            // 
+            // toolStrip2
+            // 
+            this.toolStrip2.BackColor = System.Drawing.Color.DarkCyan;
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton13,
+            this.toolStripLabel3,
+            this.toolStripButton16,
+            this.toolStripButton17,
+            this.toolStripButton18});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(1019, 25);
+            this.toolStrip2.TabIndex = 0;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
+            // toolStripButton13
+            // 
+            this.toolStripButton13.AutoSize = false;
+            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripButton13.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton13.Image")));
+            this.toolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton13.Name = "toolStripButton13";
+            this.toolStripButton13.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton13.Text = "[-]";
+            this.toolStripButton13.ToolTipText = "Minimizar";
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(48, 22);
+            this.toolStripLabel3.Text = "Estado: ";
+            // 
+            // toolStripButton16
+            // 
+            this.toolStripButton16.AutoSize = false;
+            this.toolStripButton16.BackColor = System.Drawing.Color.Firebrick;
+            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton16.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton16.Image")));
+            this.toolStripButton16.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton16.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton16.Name = "toolStripButton16";
+            this.toolStripButton16.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton16.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton16.Text = "Urgente";
+            // 
+            // toolStripButton17
+            // 
+            this.toolStripButton17.AutoSize = false;
+            this.toolStripButton17.BackColor = System.Drawing.Color.DarkOrange;
+            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton17.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton17.Image")));
+            this.toolStripButton17.ImageTransparentColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton17.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton17.Name = "toolStripButton17";
+            this.toolStripButton17.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton17.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton17.Text = "Atención";
+            this.toolStripButton17.ToolTipText = "Atención";
+            // 
+            // toolStripButton18
+            // 
+            this.toolStripButton18.AutoSize = false;
+            this.toolStripButton18.BackColor = System.Drawing.Color.Linen;
+            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
+            this.toolStripButton18.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton18.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton18.Name = "toolStripButton18";
+            this.toolStripButton18.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton18.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton18.Text = "Normal";
+            this.toolStripButton18.ToolTipText = "Normal";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton3,
+            this.toolStripButton7,
+            this.toolStripButton8,
+            this.toolStripButton9,
+            this.toolStripButton10,
+            this.toolStripButton11,
+            this.toolStripButton12});
+            this.toolStrip1.Location = new System.Drawing.Point(3, 3);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(24, 264);
+            this.toolStrip1.TabIndex = 0;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton3.Text = "toolStripButton3";
+            // 
+            // toolStripButton7
+            // 
+            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
+            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton7.Name = "toolStripButton7";
+            this.toolStripButton7.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton7.Text = "toolStripButton7";
+            // 
+            // toolStripButton8
+            // 
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
+            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton8.Name = "toolStripButton8";
+            this.toolStripButton8.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton8.Text = "toolStripButton8";
+            // 
+            // toolStripButton9
+            // 
+            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
+            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton9.Name = "toolStripButton9";
+            this.toolStripButton9.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton9.Text = "toolStripButton9";
+            // 
+            // toolStripButton10
+            // 
+            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
+            this.toolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton10.Name = "toolStripButton10";
+            this.toolStripButton10.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton10.Text = "toolStripButton10";
+            // 
+            // toolStripButton11
+            // 
+            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
+            this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton11.Name = "toolStripButton11";
+            this.toolStripButton11.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton11.Text = "toolStripButton11";
+            // 
+            // toolStripButton12
+            // 
+            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
+            this.toolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton12.Name = "toolStripButton12";
+            this.toolStripButton12.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton12.Text = "toolStripButton12";
             // 
             // tabPage7
             // 
@@ -981,14 +1059,14 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1086, 270);
+            this.tabPage7.Size = new System.Drawing.Size(1055, 270);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "Contactos";
             // 
-            // toolStrip2
+            // toolStripCliente
             // 
-            this.toolStrip2.BackColor = System.Drawing.Color.IndianRed;
-            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripCliente.BackColor = System.Drawing.Color.IndianRed;
+            this.toolStripCliente.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripLabel1,
             this.toolStripSeparator1,
@@ -997,11 +1075,11 @@
             this.toolStripButton5,
             this.toolStripButton6,
             this.toolStripComboBox_Estado});
-            this.toolStrip2.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(1094, 25);
-            this.toolStrip2.TabIndex = 0;
-            this.toolStrip2.Text = "toolStrip2";
+            this.toolStripCliente.Location = new System.Drawing.Point(0, 0);
+            this.toolStripCliente.Name = "toolStripCliente";
+            this.toolStripCliente.Size = new System.Drawing.Size(1063, 25);
+            this.toolStripCliente.TabIndex = 0;
+            this.toolStripCliente.Text = "toolStrip2";
             // 
             // toolStripButton1
             // 
@@ -1023,31 +1101,17 @@
             this.toolStripLabel1.Size = new System.Drawing.Size(93, 22);
             this.toolStripLabel1.Text = "Empresa Pepito";
             // 
-            // toolStripComboBox_Estado
+            // toolStripSeparator1
             // 
-            this.toolStripComboBox_Estado.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripComboBox_Estado.BackColor = System.Drawing.Color.Salmon;
-            this.toolStripComboBox_Estado.Items.AddRange(new object[] {
-            "Urgente",
-            "Atención",
-            "Normal"});
-            this.toolStripComboBox_Estado.Name = "toolStripComboBox_Estado";
-            this.toolStripComboBox_Estado.Size = new System.Drawing.Size(80, 25);
-            this.toolStripComboBox_Estado.Text = "Urgente";
-            this.toolStripComboBox_Estado.ToolTipText = "El estado de urgencia del cliente.";
-            this.toolStripComboBox_Estado.TextChanged += new System.EventHandler(this.CambiarEstado_changeText);
+            this.toolStripSeparator1.Margin = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripLabel4
             // 
             this.toolStripLabel4.Name = "toolStripLabel4";
             this.toolStripLabel4.Size = new System.Drawing.Size(48, 22);
             this.toolStripLabel4.Text = "Estado: ";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Margin = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripButton4
             // 
@@ -1061,13 +1125,12 @@
             this.toolStripButton4.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
             this.toolStripButton4.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton4.Text = "Urgente";
-            this.toolStripButton4.ToolTipText = "[  k]";
             this.toolStripButton4.Click += new System.EventHandler(this.CambiarEstado_click);
             // 
             // toolStripButton5
             // 
             this.toolStripButton5.AutoSize = false;
-            this.toolStripButton5.BackColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton5.BackColor = System.Drawing.Color.DarkOrange;
             this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
             this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.SandyBrown;
@@ -1076,7 +1139,7 @@
             this.toolStripButton5.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
             this.toolStripButton5.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton5.Text = "Atención";
-            this.toolStripButton5.ToolTipText = "[  k]";
+            this.toolStripButton5.ToolTipText = "Atención";
             this.toolStripButton5.Click += new System.EventHandler(this.CambiarEstado_click);
             // 
             // toolStripButton6
@@ -1091,43 +1154,343 @@
             this.toolStripButton6.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
             this.toolStripButton6.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton6.Text = "Normal";
-            this.toolStripButton6.ToolTipText = "[  k]";
+            this.toolStripButton6.ToolTipText = "Normal";
             this.toolStripButton6.Click += new System.EventHandler(this.CambiarEstado_click);
+            // 
+            // toolStripComboBox_Estado
+            // 
+            this.toolStripComboBox_Estado.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripComboBox_Estado.BackColor = System.Drawing.Color.Salmon;
+            this.toolStripComboBox_Estado.Items.AddRange(new object[] {
+            "Urgente",
+            "Atención",
+            "Normal"});
+            this.toolStripComboBox_Estado.Name = "toolStripComboBox_Estado";
+            this.toolStripComboBox_Estado.Size = new System.Drawing.Size(80, 25);
+            this.toolStripComboBox_Estado.Text = "Urgente";
+            this.toolStripComboBox_Estado.ToolTipText = "El estado de urgencia del cliente.";
+            this.toolStripComboBox_Estado.TextChanged += new System.EventHandler(this.CambiarEstado_changeText);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.AutoSize = true;
+            this.groupBox4.Controls.Add(this.textBox9);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.dateTimePicker3);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Location = new System.Drawing.Point(3, 105);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(509, 112);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "groupBox4";
+            // 
+            // textBox9
+            // 
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(98, 60);
+            this.textBox9.MaxLength = 30;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(229, 17);
+            this.textBox9.TabIndex = 5;
+            this.textBox9.Text = "Don Pepito Ramirez de Peña";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Brown;
+            this.label4.Location = new System.Drawing.Point(6, 60);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 18);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Estado.";
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(98, 31);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker3.TabIndex = 3;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Brown;
+            this.label5.Location = new System.Drawing.Point(6, 33);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 18);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Fecha:";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.splitContainer1);
+            this.panel2.Controls.Add(this.toolStrip4);
+            this.panel2.Location = new System.Drawing.Point(3, 230);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1019, 221);
+            this.panel2.TabIndex = 1;
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 25);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.groupBox6);
+            this.splitContainer1.Panel1MinSize = 500;
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.groupBox7);
+            this.splitContainer1.Panel2.Controls.Add(this.groupBox8);
+            this.splitContainer1.Size = new System.Drawing.Size(1019, 196);
+            this.splitContainer1.SplitterDistance = 500;
+            this.splitContainer1.TabIndex = 1;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.textBox10);
+            this.groupBox6.Controls.Add(this.label6);
+            this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox6.Location = new System.Drawing.Point(0, 0);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(500, 196);
+            this.groupBox6.TabIndex = 0;
+            this.groupBox6.TabStop = false;
+            // 
+            // textBox10
+            // 
+            this.textBox10.AcceptsReturn = true;
+            this.textBox10.Location = new System.Drawing.Point(9, 37);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(488, 112);
+            this.textBox10.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Brown;
+            this.label6.Location = new System.Drawing.Point(6, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(91, 18);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Descripción:";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.AutoSize = true;
+            this.groupBox7.Controls.Add(this.textBox11);
+            this.groupBox7.Controls.Add(this.label7);
+            this.groupBox7.Controls.Add(this.dateTimePicker4);
+            this.groupBox7.Controls.Add(this.label8);
+            this.groupBox7.Location = new System.Drawing.Point(3, 105);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(509, 112);
+            this.groupBox7.TabIndex = 1;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "groupBox7";
+            // 
+            // textBox11
+            // 
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Location = new System.Drawing.Point(98, 60);
+            this.textBox11.MaxLength = 30;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(229, 17);
+            this.textBox11.TabIndex = 5;
+            this.textBox11.Text = "Don Pepito Ramirez de Peña";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Brown;
+            this.label7.Location = new System.Drawing.Point(6, 60);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 18);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Estado.";
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Location = new System.Drawing.Point(98, 31);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker4.TabIndex = 3;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Brown;
+            this.label8.Location = new System.Drawing.Point(6, 33);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 18);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Fecha:";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.AutoSize = true;
+            this.groupBox8.Controls.Add(this.textBox12);
+            this.groupBox8.Controls.Add(this.label9);
+            this.groupBox8.Controls.Add(this.dateTimePicker5);
+            this.groupBox8.Controls.Add(this.label10);
+            this.groupBox8.Location = new System.Drawing.Point(3, 3);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(509, 96);
+            this.groupBox8.TabIndex = 0;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "groupBox8";
+            // 
+            // textBox12
+            // 
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(98, 60);
+            this.textBox12.MaxLength = 30;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(229, 17);
+            this.textBox12.TabIndex = 5;
+            this.textBox12.Text = "Don Pepito Ramirez de Peña";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Brown;
+            this.label9.Location = new System.Drawing.Point(6, 60);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(59, 18);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Estado.";
+            // 
+            // dateTimePicker5
+            // 
+            this.dateTimePicker5.Location = new System.Drawing.Point(98, 31);
+            this.dateTimePicker5.Name = "dateTimePicker5";
+            this.dateTimePicker5.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker5.TabIndex = 3;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Brown;
+            this.label10.Location = new System.Drawing.Point(6, 33);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 18);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "Fecha:";
+            // 
+            // toolStrip4
+            // 
+            this.toolStrip4.BackColor = System.Drawing.Color.DarkCyan;
+            this.toolStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton14,
+            this.toolStripLabel5,
+            this.toolStripButton15,
+            this.toolStripButton19,
+            this.toolStripButton20});
+            this.toolStrip4.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip4.Name = "toolStrip4";
+            this.toolStrip4.Size = new System.Drawing.Size(1019, 25);
+            this.toolStrip4.TabIndex = 0;
+            this.toolStrip4.Text = "toolStrip4";
+            // 
+            // toolStripButton14
+            // 
+            this.toolStripButton14.AutoSize = false;
+            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton14.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
+            this.toolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton14.Name = "toolStripButton14";
+            this.toolStripButton14.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton14.Text = "[-]";
+            this.toolStripButton14.ToolTipText = "Minimizar";
+            // 
+            // toolStripLabel5
+            // 
+            this.toolStripLabel5.Name = "toolStripLabel5";
+            this.toolStripLabel5.Size = new System.Drawing.Size(48, 22);
+            this.toolStripLabel5.Text = "Estado: ";
+            // 
+            // toolStripButton15
+            // 
+            this.toolStripButton15.AutoSize = false;
+            this.toolStripButton15.BackColor = System.Drawing.Color.Firebrick;
+            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton15.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton15.Image")));
+            this.toolStripButton15.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton15.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton15.Name = "toolStripButton15";
+            this.toolStripButton15.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton15.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton15.Text = "Urgente";
+            // 
+            // toolStripButton19
+            // 
+            this.toolStripButton19.AutoSize = false;
+            this.toolStripButton19.BackColor = System.Drawing.Color.DarkOrange;
+            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton19.Image")));
+            this.toolStripButton19.ImageTransparentColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton19.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton19.Name = "toolStripButton19";
+            this.toolStripButton19.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton19.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton19.Text = "Atención";
+            this.toolStripButton19.ToolTipText = "Atención";
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.AutoSize = false;
+            this.toolStripButton20.BackColor = System.Drawing.Color.Linen;
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
+            this.toolStripButton20.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton20.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton20.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton20.Text = "Normal";
+            this.toolStripButton20.ToolTipText = "Normal";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1109, 529);
+            this.ClientSize = new System.Drawing.Size(1073, 529);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.toolStripVentana);
             this.Controls.Add(this.menuStrip2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1125, 567);
-            this.MinimumSize = new System.Drawing.Size(1114, 567);
             this.Name = "Form1";
             this.Text = "2Secure - Clientes";
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
+            this.toolStripVentana.ResumeLayout(false);
+            this.toolStripVentana.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.tabControl3.ResumeLayout(false);
-            this.tabPage9.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
-            this.toolStrip4.ResumeLayout(false);
-            this.toolStrip4.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabControl2.ResumeLayout(false);
             this.toolStrip3.ResumeLayout(false);
             this.toolStrip3.PerformLayout();
-            this.panel.ResumeLayout(false);
-            this.panel.PerformLayout();
+            this.panelCliente.ResumeLayout(false);
+            this.panelCliente.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -1136,8 +1499,43 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.flowLayoutTarea.ResumeLayout(false);
+            this.panelTarea.ResumeLayout(false);
+            this.panelTarea.PerformLayout();
+            this.splitContainerTarea.Panel1.ResumeLayout(false);
+            this.splitContainerTarea.Panel2.ResumeLayout(false);
+            this.splitContainerTarea.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTarea)).EndInit();
+            this.splitContainerTarea.ResumeLayout(false);
+            this.groupBoxDescripcionTarea.ResumeLayout(false);
+            this.groupBoxDescripcionTarea.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.toolStripCliente.ResumeLayout(false);
+            this.toolStripCliente.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            this.splitContainer1.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.toolStrip4.ResumeLayout(false);
+            this.toolStrip4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1153,7 +1551,7 @@
         private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ventanaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
-        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStrip toolStripVentana;
         private System.Windows.Forms.ToolStripButton newToolStripButton1;
         private System.Windows.Forms.ToolStripButton openToolStripButton1;
         private System.Windows.Forms.ToolStripButton saveToolStripButton1;
@@ -1165,11 +1563,11 @@
         private System.Windows.Forms.ToolStripButton helpToolStripButton1;
         private System.Windows.Forms.ToolStripButton printToolStripButton1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel panel;
+        private System.Windows.Forms.Panel panelCliente;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.ToolStrip toolStrip2;
+        private System.Windows.Forms.ToolStrip toolStripCliente;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.Panel panel1;
@@ -1179,39 +1577,14 @@
         private System.Windows.Forms.ToolStrip toolStrip3;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TabControl tabControl3;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.ToolStrip toolStrip4;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
-        private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label19;
@@ -1221,8 +1594,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox_Estado;
@@ -1231,6 +1602,61 @@
         private System.Windows.Forms.ToolStripButton toolStripButton4;
         private System.Windows.Forms.ToolStripButton toolStripButton5;
         private System.Windows.Forms.ToolStripButton toolStripButton6;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripButton toolStripButton7;
+        private System.Windows.Forms.ToolStripButton toolStripButton8;
+        private System.Windows.Forms.ToolStripButton toolStripButton9;
+        private System.Windows.Forms.ToolStripButton toolStripButton10;
+        private System.Windows.Forms.ToolStripButton toolStripButton11;
+        private System.Windows.Forms.ToolStripButton toolStripButton12;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutTarea;
+        private System.Windows.Forms.Panel panelTarea;
+        private System.Windows.Forms.ToolStrip toolStrip2;
+        private System.Windows.Forms.SplitContainer splitContainerTarea;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.GroupBox groupBoxDescripcionTarea;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripButton toolStripButton13;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
+        private System.Windows.Forms.ToolStripButton toolStripButton16;
+        private System.Windows.Forms.ToolStripButton toolStripButton17;
+        private System.Windows.Forms.ToolStripButton toolStripButton18;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DateTimePicker dateTimePicker4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker dateTimePicker5;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ToolStrip toolStrip4;
+        private System.Windows.Forms.ToolStripButton toolStripButton14;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel5;
+        private System.Windows.Forms.ToolStripButton toolStripButton15;
+        private System.Windows.Forms.ToolStripButton toolStripButton19;
+        private System.Windows.Forms.ToolStripButton toolStripButton20;
     }
 }
 
