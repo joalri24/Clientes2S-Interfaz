@@ -92,7 +92,7 @@ namespace pruebaInterfaz
         }
 
         /// <summary>
-        /// Cambia el estado según el tag ue tenga asociado el botón.
+        /// Cambia el estado según el valor seleccionado.
         /// De paso cambia el color de la barra donde aparece su nombre.
         /// </summary>
         /// <param name="sender"></param>
@@ -102,10 +102,12 @@ namespace pruebaInterfaz
             ToolStripComboBox comboBox = sender as ToolStripComboBox;
             Control barra = comboBox.GetCurrentParent();
 
+            // Hacer los cambios de color correspondientes:
             if (comboBox.Text == "Urgente")
             {
                 barra.BackColor = Color.IndianRed;
                 comboBox.BackColor = Color.Salmon;
+
             }
             else if (comboBox.Text == "Atención")
             {
@@ -120,6 +122,37 @@ namespace pruebaInterfaz
                     
 
         }
+
+        /// <summary>
+        /// Cambia el estado según el valor seleccionado.
+        /// De paso cambia el color de la barra donde aparece su nombre.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CambiarEstado_click(object sender, EventArgs e)
+        {
+            ToolStripButton boton = sender as ToolStripButton;
+            Control barra = boton.GetCurrentParent();
+
+            // Hacer los cambios de color correspondientes:
+            if (boton.Text == "Urgente")
+            {
+                barra.BackColor = Color.IndianRed;
+                boton.BackColor = Color.Salmon;
+
+            }
+            else if (boton.Text == "Atención")
+            {
+                barra.BackColor = Color.SandyBrown;
+                boton.BackColor = Color.PeachPuff;
+            }
+            else if (boton.Text == "Normal")
+            {
+                barra.BackColor = Color.Linen;
+                boton.BackColor = Color.Linen;
+            }
+        }
+
     }
 
 }

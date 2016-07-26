@@ -112,6 +112,10 @@
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripComboBox_Estado = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.menuStrip2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -987,8 +991,12 @@
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripLabel1,
-            this.toolStripComboBox_Estado,
-            this.toolStripLabel4});
+            this.toolStripSeparator1,
+            this.toolStripLabel4,
+            this.toolStripButton4,
+            this.toolStripButton5,
+            this.toolStripButton6,
+            this.toolStripComboBox_Estado});
             this.toolStrip2.Location = new System.Drawing.Point(0, 0);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.Size = new System.Drawing.Size(1094, 25);
@@ -1010,9 +1018,10 @@
             // 
             // toolStripLabel1
             // 
+            this.toolStripLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(142, 22);
-            this.toolStripLabel1.Text = "Empresa Pepito (Urgente)";
+            this.toolStripLabel1.Size = new System.Drawing.Size(93, 22);
+            this.toolStripLabel1.Text = "Empresa Pepito";
             // 
             // toolStripComboBox_Estado
             // 
@@ -1025,14 +1034,65 @@
             this.toolStripComboBox_Estado.Name = "toolStripComboBox_Estado";
             this.toolStripComboBox_Estado.Size = new System.Drawing.Size(80, 25);
             this.toolStripComboBox_Estado.Text = "Urgente";
+            this.toolStripComboBox_Estado.ToolTipText = "El estado de urgencia del cliente.";
             this.toolStripComboBox_Estado.TextChanged += new System.EventHandler(this.CambiarEstado_changeText);
             // 
             // toolStripLabel4
             // 
-            this.toolStripLabel4.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripLabel4.Name = "toolStripLabel4";
             this.toolStripLabel4.Size = new System.Drawing.Size(48, 22);
             this.toolStripLabel4.Text = "Estado: ";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Margin = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.AutoSize = false;
+            this.toolStripButton4.BackColor = System.Drawing.Color.Firebrick;
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton4.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton4.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton4.Text = "Urgente";
+            this.toolStripButton4.ToolTipText = "[  k]";
+            this.toolStripButton4.Click += new System.EventHandler(this.CambiarEstado_click);
+            // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.AutoSize = false;
+            this.toolStripButton5.BackColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
+            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton5.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton5.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton5.Text = "Atención";
+            this.toolStripButton5.ToolTipText = "[  k]";
+            this.toolStripButton5.Click += new System.EventHandler(this.CambiarEstado_click);
+            // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.AutoSize = false;
+            this.toolStripButton6.BackColor = System.Drawing.Color.Linen;
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton6.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton6.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton6.Text = "Normal";
+            this.toolStripButton6.ToolTipText = "[  k]";
+            this.toolStripButton6.Click += new System.EventHandler(this.CambiarEstado_click);
             // 
             // Form1
             // 
@@ -1167,6 +1227,10 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox_Estado;
         private System.Windows.Forms.ToolStripLabel toolStripLabel4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.ToolStripButton toolStripButton6;
     }
 }
 
