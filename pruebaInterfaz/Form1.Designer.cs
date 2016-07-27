@@ -985,7 +985,7 @@
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox7.Size = new System.Drawing.Size(488, 142);
+            this.textBox7.Size = new System.Drawing.Size(488, 170);
             this.textBox7.TabIndex = 3;
             // 
             // label2
@@ -1196,6 +1196,7 @@
             this.toolStripButton13.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton13.Text = "[-]";
             this.toolStripButton13.ToolTipText = "Minimizar";
+            this.toolStripButton13.Click += new System.EventHandler(this.minimizarTarea_Click);
             // 
             // toolStripLabel3
             // 
@@ -1215,6 +1216,7 @@
             this.toolStripButton16.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
             this.toolStripButton16.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton16.Text = "Urgente";
+            this.toolStripButton16.Click += new System.EventHandler(this.CambiarEstado_click);
             // 
             // toolStripButton17
             // 
@@ -1229,6 +1231,7 @@
             this.toolStripButton17.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton17.Text = "Atención";
             this.toolStripButton17.ToolTipText = "Atención";
+            this.toolStripButton17.Click += new System.EventHandler(this.CambiarEstado_click);
             // 
             // toolStripButton21
             // 
@@ -1243,6 +1246,7 @@
             this.toolStripButton21.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton21.Text = "Normal";
             this.toolStripButton21.ToolTipText = "Normal";
+            this.toolStripButton21.Click += new System.EventHandler(this.CambiarEstado_click);
             // 
             // toolStripButton18
             // 
@@ -1257,6 +1261,7 @@
             this.toolStripButton18.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton18.Text = "Finalizada";
             this.toolStripButton18.ToolTipText = "Finalizada";
+            this.toolStripButton18.Click += new System.EventHandler(this.CambiarEstado_click);
             // 
             // panel2
             // 
@@ -1451,6 +1456,7 @@
             this.toolStripButton14.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton14.Text = "[-]";
             this.toolStripButton14.ToolTipText = "Minimizar";
+            this.toolStripButton14.Click += new System.EventHandler(this.minimizarTarea_Click);
             // 
             // toolStripLabel5
             // 

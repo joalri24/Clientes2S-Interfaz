@@ -29,27 +29,27 @@ namespace pruebaInterfaz
         // -----------------------------------------------------------------------------
 
         /// <summary>
-        /// Minimiza o maximiza el panel de información del cliente cuando se hace
-        /// click en el botón correspondiente.
+        /// Minimiza o maximiza una fila.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void minimizarCliente_Click(object sender, EventArgs e)
+        /// <param name="tamanio">El tamaño original en pixeles al que debe volver el contenedor cuando se maximiza.</param>
+        private void minimizarFila(object sender, EventArgs e, int tamanio)
         {
             ToolStripButton boton = sender as ToolStripButton;
-            
+
             // Obtener el panel padre del botón. El botón es hijo de una barra de herramientas,
             // que a su vez es hija del panel.
             Control panel = boton.GetCurrentParent().Parent as Control;
 
             // Se obtiene una referencia al controlador de pestañas asociado al botón.
-            // El panel padre tiene una lista de controles: el primer elemento es el 
-            // controlador de pestañas, mientrás que el segundo es la barra de herramientas. 
+            // El panel padre tiene una lista de controles: el primer elemento es un contenedor,
+            // mientrás que el segundo es la barra de herramientas. 
             System.Collections.IEnumerator enumer = panel.Controls.GetEnumerator();
             enumer.MoveNext();
-            Control controlPestañas = enumer.Current as Control; 
+            Control controlPestañas = enumer.Current as Control;
 
-            
+
             if (controlPestañas.Visible)
             {
                 controlPestañas.Visible = false;
@@ -60,7 +60,7 @@ namespace pruebaInterfaz
             else
             {
                 controlPestañas.Visible = true;
-                panel.Height = 350;
+                panel.Height = tamanio;
                 boton.Text = "[-]";
                 boton.ToolTipText = "Minimizar";
             }
@@ -73,37 +73,20 @@ namespace pruebaInterfaz
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        private void minimizarCliente_Click(object sender, EventArgs e)
+        {
+            minimizarFila(sender, e, 350);
+        }
+
+        /// <summary>
+        /// Minimiza o maximiza el panel de información de la tarea cuando se hace
+        /// click en el botón correspondiente.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void minimizarTarea_Click(object sender, EventArgs e)
         {
-            ToolStripButton boton = sender as ToolStripButton;
-
-            // Obtener el panel padre del botón. El botón es hijo de una barra de herramientas,
-            // que a su vez es hija del panel.
-            Control panel = boton.GetCurrentParent().Parent as Control;
-
-            // Se obtiene una referencia al controlador de pestañas asociado al botón.
-            // El panel padre tiene una lista de controles: el primer elemento es el 
-            // controlador de pestañas, mientrás que el segundo es la barra de herramientas. 
-            System.Collections.IEnumerator enumer = panel.Controls.GetEnumerator();
-            enumer.MoveNext();
-            Control controlPestañas = enumer.Current as Control;
-            Console.WriteLine(controlPestañas.Name);
-
-            /**if (controlPestañas.Visible)
-            {
-                controlPestañas.Visible = false;
-                panel.Height = 27;
-                boton.Text = "[+]";
-                boton.ToolTipText = "Maximizar";
-            }
-            else
-            {
-                controlPestañas.Visible = true;
-                panel.Height = 350;
-                boton.Text = "[-]";
-                boton.ToolTipText = "Minimizar";
-            }
-            */
+            minimizarFila(sender, e, 275);     
         }
 
         /// <summary>
@@ -189,6 +172,11 @@ namespace pruebaInterfaz
             {
                 barra.BackColor = Color.Linen;
                 boton.BackColor = Color.LightGray;
+            }
+            else if (boton.Text == "Finalizada")
+            {
+                barra.BackColor = Color.ForestGreen;
+                boton.BackColor = Color.DarkGreen;
             }
         }
     }
