@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace pruebaInterfaz
 {
     public partial class Form1 : Form
@@ -64,7 +65,6 @@ namespace pruebaInterfaz
                 boton.Text = "[-]";
                 boton.ToolTipText = "Minimizar";
             }
-
         }
 
         /// <summary>
@@ -102,6 +102,18 @@ namespace pruebaInterfaz
         }
 
         /// <summary>
+        /// Cambia el borde de los campos de texto de las barras de 
+        /// herramientas cuando dejan de ser el componente activo del formulario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textBox_toolstrip_leave(object sender, EventArgs e)
+        {
+            ToolStripTextBox textbox = sender as ToolStripTextBox;
+            textbox.BorderStyle = BorderStyle.None;
+        }
+
+        /// <summary>
         /// Cambia el borde de los campos de texto cuando se convierten
         /// en el componente activo del formulario (o se hace click sobre ellos).
         /// </summary>
@@ -110,6 +122,18 @@ namespace pruebaInterfaz
         private void textbox_click(object sender, EventArgs e)
         {
             TextBox textbox = sender as TextBox;
+            textbox.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        /// <summary>
+        /// Cambia el borde de los campos de texto de las barras de herramientas cuando 
+        /// se convierten en el componente activo del formulario (o se hace click sobre ellos).
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textbox_toolstrip_click(object sender, EventArgs e)
+        {
+            ToolStripTextBox textbox = sender as ToolStripTextBox;
             textbox.BorderStyle = BorderStyle.Fixed3D;
         }
 
@@ -154,7 +178,16 @@ namespace pruebaInterfaz
         private void CambiarEstado_click(object sender, EventArgs e)
         {
             ToolStripButton boton = sender as ToolStripButton;
-            Control barra = boton.GetCurrentParent();
+            ToolStrip barra = boton.GetCurrentParent();
+            
+            // Utiliza un iterador para recorrer la lista de herramientas de la barra de herramientas.
+            // El primer elemento es el botón de minimizar, el segundo es un label con el nombre del
+            // cliente, contacto o tarea. El tercero es un label donde aparece el estado actual.
+            System.Collections.IEnumerator enumer = barra.Items.GetEnumerator();
+            enumer.MoveNext();   // Se para sobre el primer elemento.
+            enumer.MoveNext();   // Ahora sobre el segundo.
+            enumer.MoveNext();   // ... y ahora sobre el tercero.
+            ToolStripItem item = enumer.Current as ToolStripItem;
 
             // Hacer los cambios de color correspondientes:
             if (boton.Text == "Urgente")
@@ -178,6 +211,10 @@ namespace pruebaInterfaz
                 barra.BackColor = Color.ForestGreen;
                 boton.BackColor = Color.DarkGreen;
             }
+
+            // El iterador esta parado sobre el tercer item de la barra de herramientas,
+            // la cual es el label donde aparece el estado de la tarea.
+            item.Text ="("+boton.Text+")";
         }
     }
 

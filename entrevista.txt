@@ -45,3 +45,25 @@ Cliente:
   Siempre en ejecución, no tener que buscar el archivo en el explorador, como si estuviera en la barra de herramientas.
 
   Base de datos centralizado. 
+  
+  
+  ---------------
+  
+  - Botón de llamar al lado de cada contacto (?)
+  - Etiueta con la fecha de la última llamda.
+  
+  - Para empresa: Contacto principal?
+  
+  
+  ////---///--///--///---///--
+  
+  
+  Parseador Nessus:
+  
+  
+  
+  
+  ////---///--//---//--///-----
+  
+  Reseteador sencillo de contraseñas.
+  
