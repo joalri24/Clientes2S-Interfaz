@@ -90,6 +90,17 @@ namespace pruebaInterfaz
         }
 
         /// <summary>
+        /// Minimiza o maximiza el panel de información de la tarea cuando se hace
+        /// click en el botón correspondiente.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void minimizarContacto_Click(object sender, EventArgs e)
+        {
+            minimizarFila(sender, e, 190);
+        }
+
+        /// <summary>
         /// Cambia el borde de los campos de texto cuando dejan de ser
         /// el componente activo del formulario.
         /// </summary>
@@ -203,7 +214,7 @@ namespace pruebaInterfaz
             }
             else if (boton.Text == "Normal")
             {
-                barra.BackColor = Color.Linen;
+                barra.BackColor = Color.Gainsboro;
                 boton.BackColor = Color.LightGray;
             }
             else if (boton.Text == "Finalizada")
