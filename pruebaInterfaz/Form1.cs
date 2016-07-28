@@ -180,7 +180,7 @@ namespace pruebaInterfaz
             ToolStripButton boton = sender as ToolStripButton;
             ToolStrip barra = boton.GetCurrentParent();
             
-            // Utiliza un iterador para recorrer la lista de herramientas de la barra de herramientas.
+            // Se utiliza un iterador para recorrer la lista de herramientas de la barra de herramientas.
             // El primer elemento es el botón de minimizar, el segundo es un label con el nombre del
             // cliente, contacto o tarea. El tercero es un label donde aparece el estado actual.
             System.Collections.IEnumerator enumer = barra.Items.GetEnumerator();
@@ -215,6 +215,103 @@ namespace pruebaInterfaz
             // El iterador esta parado sobre el tercer item de la barra de herramientas,
             // la cual es el label donde aparece el estado de la tarea.
             item.Text ="("+boton.Text+")";
+        }
+
+        /// <summary>
+        /// Cambia el estado de una tarea según el valor seleccionado.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CambiarEstado_tarea(object sender, EventArgs e)
+        {
+            ToolStripButton boton = sender as ToolStripButton;
+
+            // Obtener el panel padre del botón. El botón es hijo de una barra de herramientas,
+            // que a su vez es hija del panel.
+            Control panel = boton.GetCurrentParent().Parent as Control;
+            
+
+            // El panel padre tiene una lista de controles: el primer elemento es un splitContainer.
+            // El textbox que se quiere modificar se encuentra en el 2 panel de ese split container,
+            System.Collections.IEnumerator enumer = panelTarea.Controls.GetEnumerator();
+            enumer.MoveNext();
+            SplitContainer splitContainer = enumer.Current as SplitContainer;
+
+            SplitterPanel splitpanel = splitContainer.Panel2;
+            enumer = splitpanel.Controls.GetEnumerator();
+            enumer.MoveNext();
+            enumer.MoveNext();       // El groupBox donde se encuentra el texbox.
+            Control groupBox = enumer.Current as Control;
+
+            // Recorrer el groupBox, el textbox de interés se encuentra en la segunda posición.
+            enumer = groupBox.Controls.GetEnumerator();
+            enumer.MoveNext();
+            TextBox textBox = enumer.Current as TextBox;
+            textBox.Text = boton.Text;
+
+            // Ejecuta el método que cambia el color de la barra.
+            CambiarEstado_click(sender, e);
+            
+        }
+
+        /// <summary>
+        /// Actualiza el nombre de la barra de cliente cuando cambia
+        /// el nombre en el campo correspondiente.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textBox_CambiarNombre_Cliente(object sender, EventArgs e)
+        {
+            TextBox textbox = sender as TextBox;
+            
+            // PanelCliente -> TabControl -> TableLayoutResumen -> groupControl -> Textbox
+            Control panelCliente = textbox.Parent.Parent.Parent.Parent.Parent;
+
+            // El panel padre tiene una lista de controles: el primer elemento es un contenedor,
+            // mientrás que el segundo es la barra de herramientas. 
+            System.Collections.IEnumerator enumer = panelCliente.Controls.GetEnumerator();
+            enumer.MoveNext();
+            enumer.MoveNext();
+            ToolStrip barra = enumer.Current as ToolStrip;
+
+            // Se utiliza un iterador para recorrer la lista de herramientas de la barra de herramientas.
+            // El primer elemento es el botón de minimizar, el segundo es un label con el nombre del
+            // cliente, contacto o tarea. El tercero es un label donde aparece el estado actual.
+            enumer = barra.Items.GetEnumerator();
+            enumer.MoveNext();   // Se para sobre el primer elemento.
+            enumer.MoveNext();   // Ahora sobre el segundo.
+            ToolStripItem item = enumer.Current as ToolStripItem;
+            item.Text = textbox.Text;
+        }
+
+        /// <summary>
+        /// Actualiza el nombre de la barra de cliente cuando cambia
+        /// el nombre en el campo correspondiente.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textBox_CambiarNombre_Tarea(object sender, EventArgs e)
+        {
+            TextBox textbox = sender as TextBox;
+
+            // PanelTarea -> SplitContainer -> SplitterPanel -> groupControl -> Textbox
+            Control panelTarea = textbox.Parent.Parent.Parent.Parent;
+
+            // El panel padre tiene una lista de controles: el primer elemento es un contenedor,
+            // mientrás que el segundo es la barra de herramientas. 
+            System.Collections.IEnumerator enumer = panelTarea.Controls.GetEnumerator();
+            enumer.MoveNext();
+            enumer.MoveNext();
+            ToolStrip barra = enumer.Current as ToolStrip;
+
+            // Se utiliza un iterador para recorrer la lista de herramientas de la barra de herramientas.
+            // El primer elemento es el botón de minimizar, el segundo es un label con el nombre del
+            // cliente, contacto o tarea. El tercero es un label donde aparece el estado actual.
+            enumer = barra.Items.GetEnumerator();
+            enumer.MoveNext();   // Se para sobre el primer elemento.
+            enumer.MoveNext();   // Ahora sobre el segundo.
+            ToolStripItem item = enumer.Current as ToolStripItem;
+            item.Text = textbox.Text;
         }
     }
 
