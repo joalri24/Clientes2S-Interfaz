@@ -576,6 +576,7 @@
             this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip5 = new System.Windows.Forms.ToolStrip();
+            this.toolStripVentana_Searchbox = new System.Windows.Forms.ToolStripTextBox();
             this.menuStrip2.SuspendLayout();
             this.toolStripVentana.SuspendLayout();
             this.tableLayoutClientes.SuspendLayout();
@@ -822,7 +823,8 @@
             this.toolStripSeparator2,
             this.cutToolStripButton1,
             this.copyToolStripButton1,
-            this.toolStripSeparator3});
+            this.toolStripSeparator3,
+            this.toolStripVentana_Searchbox});
             this.toolStripVentana.Location = new System.Drawing.Point(0, 24);
             this.toolStripVentana.Name = "toolStripVentana";
             this.toolStripVentana.Size = new System.Drawing.Size(1109, 25);
@@ -2289,7 +2291,7 @@
             // 
             // toolStripCliente
             // 
-            this.toolStripCliente.BackColor = System.Drawing.Color.IndianRed;
+            this.toolStripCliente.BackColor = System.Drawing.Color.Gainsboro;
             this.toolStripCliente.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripLabel1,
@@ -3689,7 +3691,7 @@
             this.textBox52.Name = "textBox52";
             this.textBox52.Size = new System.Drawing.Size(364, 17);
             this.textBox52.TabIndex = 6;
-            this.textBox52.Text = "Tarea 1";
+            this.textBox52.Text = "Tarea 2";
             this.textBox52.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
             this.textBox52.Enter += new System.EventHandler(this.textbox_click);
             this.textBox52.Leave += new System.EventHandler(this.textBox_leave);
@@ -3936,7 +3938,7 @@
             this.toolStripLabel15.BackColor = System.Drawing.Color.Transparent;
             this.toolStripLabel15.Name = "toolStripLabel15";
             this.toolStripLabel15.Size = new System.Drawing.Size(45, 22);
-            this.toolStripLabel15.Text = "Tarea 1";
+            this.toolStripLabel15.Text = "Tarea 2";
             // 
             // toolStripLabel16
             // 
@@ -4929,7 +4931,7 @@
             // 
             // toolStrip13
             // 
-            this.toolStrip13.BackColor = System.Drawing.Color.SandyBrown;
+            this.toolStrip13.BackColor = System.Drawing.Color.Gainsboro;
             this.toolStrip13.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton58,
             this.toolStripLabel21,
@@ -7057,7 +7059,7 @@
             // 
             // toolStrip21
             // 
-            this.toolStrip21.BackColor = System.Drawing.Color.SandyBrown;
+            this.toolStrip21.BackColor = System.Drawing.Color.Gainsboro;
             this.toolStrip21.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton89,
             this.toolStripLabel33,
@@ -7294,6 +7296,13 @@
             this.toolStrip5.Size = new System.Drawing.Size(1038, 25);
             this.toolStrip5.TabIndex = 0;
             this.toolStrip5.Text = "toolStrip5";
+            // 
+            // toolStripVentana_Searchbox
+            // 
+            this.toolStripVentana_Searchbox.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripVentana_Searchbox.Name = "toolStripVentana_Searchbox";
+            this.toolStripVentana_Searchbox.Size = new System.Drawing.Size(150, 25);
+            this.toolStripVentana_Searchbox.Text = "Buscar...";
             // 
             // Form1
             // 
@@ -8150,6 +8159,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButton25;
         private System.Windows.Forms.ToolStripButton toolStripButton26;
         private System.Windows.Forms.ToolStripButton toolStripButton27;
+        private System.Windows.Forms.ToolStripTextBox toolStripVentana_Searchbox;
     }
 }
 
