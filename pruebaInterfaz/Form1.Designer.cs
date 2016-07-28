@@ -125,17 +125,6 @@
             this.label36 = new System.Windows.Forms.Label();
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.label37 = new System.Windows.Forms.Label();
-            this.toolStrip5 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel10 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripLabel11 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel12 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTareas = new System.Windows.Forms.ToolStrip();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
@@ -576,6 +565,17 @@
             this.toolStripButton91 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton92 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton93 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel10 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel11 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel12 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip5 = new System.Windows.Forms.ToolStrip();
             this.menuStrip2.SuspendLayout();
             this.toolStripVentana.SuspendLayout();
             this.tableLayoutClientes.SuspendLayout();
@@ -604,7 +604,6 @@
             this.groupBox10.SuspendLayout();
             this.groupBox11.SuspendLayout();
             this.groupBox12.SuspendLayout();
-            this.toolStrip5.SuspendLayout();
             this.toolStripTareas.SuspendLayout();
             this.tabPageContacto.SuspendLayout();
             this.flowLayoutContactos.SuspendLayout();
@@ -744,6 +743,7 @@
             this.toolStrip19.SuspendLayout();
             this.toolStrip20.SuspendLayout();
             this.toolStrip21.SuspendLayout();
+            this.toolStrip5.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip2
@@ -1674,8 +1674,10 @@
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(364, 17);
             this.textBox26.TabIndex = 6;
-            this.textBox26.Text = "Tarea 1";
+            this.textBox26.Text = "Tarea 2";
             this.textBox26.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox26.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox26.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label30
             // 
@@ -1751,6 +1753,8 @@
             this.textBox28.Size = new System.Drawing.Size(229, 17);
             this.textBox28.TabIndex = 19;
             this.textBox28.Text = "ppeito.345@pepito.org.co";
+            this.textBox28.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox28.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label33
             // 
@@ -1773,6 +1777,8 @@
             this.textBox29.Size = new System.Drawing.Size(229, 17);
             this.textBox29.TabIndex = 18;
             this.textBox29.Text = "3123206278 -56";
+            this.textBox29.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox29.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label34
             // 
@@ -1795,6 +1801,8 @@
             this.textBox30.Size = new System.Drawing.Size(229, 17);
             this.textBox30.TabIndex = 17;
             this.textBox30.Text = "Director de IT";
+            this.textBox30.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox30.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label35
             // 
@@ -1817,6 +1825,8 @@
             this.textBox31.Size = new System.Drawing.Size(229, 17);
             this.textBox31.TabIndex = 15;
             this.textBox31.Text = "Don Pepito Ramirez de Peña";
+            this.textBox31.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox31.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox12
             // 
@@ -1872,133 +1882,6 @@
             this.label37.Size = new System.Drawing.Size(53, 18);
             this.label37.TabIndex = 2;
             this.label37.Text = "Fecha:";
-            // 
-            // toolStrip5
-            // 
-            this.toolStrip5.BackColor = System.Drawing.Color.ForestGreen;
-            this.toolStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton20,
-            this.toolStripLabel10,
-            this.toolStripLabel11,
-            this.toolStripSeparator8,
-            this.toolStripLabel12,
-            this.toolStripButton23,
-            this.toolStripButton24,
-            this.toolStripButton25,
-            this.toolStripButton26,
-            this.toolStripButton27});
-            this.toolStrip5.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip5.Name = "toolStrip5";
-            this.toolStrip5.Size = new System.Drawing.Size(1038, 25);
-            this.toolStrip5.TabIndex = 0;
-            this.toolStrip5.Text = "toolStrip5";
-            // 
-            // toolStripButton20
-            // 
-            this.toolStripButton20.AutoSize = false;
-            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton20.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
-            this.toolStripButton20.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton20.Name = "toolStripButton20";
-            this.toolStripButton20.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton20.Text = "[-]";
-            this.toolStripButton20.ToolTipText = "Minimizar";
-            this.toolStripButton20.Click += new System.EventHandler(this.minimizarTarea_Click);
-            // 
-            // toolStripLabel10
-            // 
-            this.toolStripLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.toolStripLabel10.Name = "toolStripLabel10";
-            this.toolStripLabel10.Size = new System.Drawing.Size(45, 22);
-            this.toolStripLabel10.Text = "Tarea 1";
-            // 
-            // toolStripLabel11
-            // 
-            this.toolStripLabel11.Name = "toolStripLabel11";
-            this.toolStripLabel11.Size = new System.Drawing.Size(0, 22);
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripLabel12
-            // 
-            this.toolStripLabel12.Name = "toolStripLabel12";
-            this.toolStripLabel12.Size = new System.Drawing.Size(96, 22);
-            this.toolStripLabel12.Text = "Cambiar estado: ";
-            // 
-            // toolStripButton23
-            // 
-            this.toolStripButton23.AutoSize = false;
-            this.toolStripButton23.BackColor = System.Drawing.Color.Firebrick;
-            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
-            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
-            this.toolStripButton23.ImageTransparentColor = System.Drawing.Color.Red;
-            this.toolStripButton23.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
-            this.toolStripButton23.Name = "toolStripButton23";
-            this.toolStripButton23.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
-            this.toolStripButton23.Size = new System.Drawing.Size(18, 18);
-            this.toolStripButton23.Text = "Urgente";
-            this.toolStripButton23.Click += new System.EventHandler(this.CambiarEstado_click);
-            // 
-            // toolStripButton24
-            // 
-            this.toolStripButton24.AutoSize = false;
-            this.toolStripButton24.BackColor = System.Drawing.Color.DarkOrange;
-            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
-            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
-            this.toolStripButton24.ImageTransparentColor = System.Drawing.Color.SandyBrown;
-            this.toolStripButton24.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
-            this.toolStripButton24.Name = "toolStripButton24";
-            this.toolStripButton24.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
-            this.toolStripButton24.Size = new System.Drawing.Size(18, 18);
-            this.toolStripButton24.Text = "Atención";
-            this.toolStripButton24.ToolTipText = "Atención";
-            this.toolStripButton24.Click += new System.EventHandler(this.CambiarEstado_click);
-            // 
-            // toolStripButton25
-            // 
-            this.toolStripButton25.AutoSize = false;
-            this.toolStripButton25.BackColor = System.Drawing.Color.Linen;
-            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
-            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
-            this.toolStripButton25.ImageTransparentColor = System.Drawing.Color.Red;
-            this.toolStripButton25.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
-            this.toolStripButton25.Name = "toolStripButton25";
-            this.toolStripButton25.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
-            this.toolStripButton25.Size = new System.Drawing.Size(18, 18);
-            this.toolStripButton25.Text = "Normal";
-            this.toolStripButton25.ToolTipText = "Normal";
-            this.toolStripButton25.Click += new System.EventHandler(this.CambiarEstado_click);
-            // 
-            // toolStripButton26
-            // 
-            this.toolStripButton26.AutoSize = false;
-            this.toolStripButton26.BackColor = System.Drawing.Color.DarkGreen;
-            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
-            this.toolStripButton26.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton26.Image")));
-            this.toolStripButton26.ImageTransparentColor = System.Drawing.Color.Red;
-            this.toolStripButton26.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
-            this.toolStripButton26.Name = "toolStripButton26";
-            this.toolStripButton26.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
-            this.toolStripButton26.Size = new System.Drawing.Size(18, 18);
-            this.toolStripButton26.Text = "Finalizada";
-            this.toolStripButton26.ToolTipText = "Finalizada";
-            this.toolStripButton26.Click += new System.EventHandler(this.CambiarEstado_click);
-            // 
-            // toolStripButton27
-            // 
-            this.toolStripButton27.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton27.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton27.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.toolStripButton27.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton27.Image")));
-            this.toolStripButton27.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton27.Name = "toolStripButton27";
-            this.toolStripButton27.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton27.Text = "X";
-            this.toolStripButton27.ToolTipText = "Eliminar tarea";
             // 
             // toolStripTareas
             // 
@@ -2601,6 +2484,8 @@
             this.textBox10.Size = new System.Drawing.Size(229, 17);
             this.textBox10.TabIndex = 22;
             this.textBox10.Text = "ppeito.345@pepito.org.co";
+            this.textBox10.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox10.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label7
             // 
@@ -2623,6 +2508,8 @@
             this.textBox11.Size = new System.Drawing.Size(229, 17);
             this.textBox11.TabIndex = 19;
             this.textBox11.Text = "+57 3123206278";
+            this.textBox11.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox11.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label8
             // 
@@ -2645,6 +2532,8 @@
             this.textBox12.Size = new System.Drawing.Size(229, 17);
             this.textBox12.TabIndex = 18;
             this.textBox12.Text = "+571 5586697 ext 458";
+            this.textBox12.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox12.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label9
             // 
@@ -2667,6 +2556,8 @@
             this.textBox13.Size = new System.Drawing.Size(229, 17);
             this.textBox13.TabIndex = 17;
             this.textBox13.Text = "Director de IT";
+            this.textBox13.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox13.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label10
             // 
@@ -2690,6 +2581,8 @@
             this.textBox14.TabIndex = 15;
             this.textBox14.Text = "Don Pepito Ramirez de Peña";
             this.textBox14.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox14.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox14.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox6
             // 
@@ -2840,6 +2733,8 @@
             this.textBox16.Size = new System.Drawing.Size(229, 17);
             this.textBox16.TabIndex = 22;
             this.textBox16.Text = "ppeito.345@pepito.org.co";
+            this.textBox16.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox16.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label13
             // 
@@ -2862,6 +2757,8 @@
             this.textBox22.Size = new System.Drawing.Size(229, 17);
             this.textBox22.TabIndex = 19;
             this.textBox22.Text = "+57 3123206278";
+            this.textBox22.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox22.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label14
             // 
@@ -2884,6 +2781,8 @@
             this.textBox23.Size = new System.Drawing.Size(229, 17);
             this.textBox23.TabIndex = 18;
             this.textBox23.Text = "+571 5586697 ext 458";
+            this.textBox23.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox23.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label22
             // 
@@ -2906,6 +2805,8 @@
             this.textBox24.Size = new System.Drawing.Size(229, 17);
             this.textBox24.TabIndex = 17;
             this.textBox24.Text = "Director de IT";
+            this.textBox24.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox24.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label27
             // 
@@ -2929,6 +2830,8 @@
             this.textBox25.TabIndex = 15;
             this.textBox25.Text = "Don Pepito Ramirez de Peña";
             this.textBox25.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox25.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox25.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox8
             // 
@@ -3093,6 +2996,9 @@
             this.textBox38.Size = new System.Drawing.Size(412, 22);
             this.textBox38.TabIndex = 9;
             this.textBox38.Text = "Empresa Pepito";
+            this.textBox38.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Cliente);
+            this.textBox38.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox38.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // textBox39
             // 
@@ -3104,6 +3010,8 @@
             this.textBox39.Size = new System.Drawing.Size(229, 17);
             this.textBox39.TabIndex = 8;
             this.textBox39.Text = "Directo";
+            this.textBox39.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox39.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // checkBox2
             // 
@@ -3208,6 +3116,8 @@
             this.textBox41.Size = new System.Drawing.Size(229, 17);
             this.textBox41.TabIndex = 7;
             this.textBox41.Text = "ppeito.345@pepito.org.co";
+            this.textBox41.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox41.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // dateTimePicker3
             // 
@@ -3253,6 +3163,8 @@
             this.textBox42.Size = new System.Drawing.Size(137, 17);
             this.textBox42.TabIndex = 6;
             this.textBox42.Text = "3123206278 -56";
+            this.textBox42.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox42.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label47
             // 
@@ -3275,6 +3187,8 @@
             this.textBox43.Size = new System.Drawing.Size(229, 17);
             this.textBox43.TabIndex = 5;
             this.textBox43.Text = "Director de IT";
+            this.textBox43.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox43.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label48
             // 
@@ -3297,6 +3211,8 @@
             this.textBox44.Size = new System.Drawing.Size(229, 17);
             this.textBox44.TabIndex = 4;
             this.textBox44.Text = "Don Pepito Ramirez de Peña";
+            this.textBox44.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox44.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox15
             // 
@@ -3386,6 +3302,9 @@
             this.textBox45.Size = new System.Drawing.Size(364, 17);
             this.textBox45.TabIndex = 6;
             this.textBox45.Text = "Tarea 1";
+            this.textBox45.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox45.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox45.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label49
             // 
@@ -3461,6 +3380,8 @@
             this.textBox47.Size = new System.Drawing.Size(229, 17);
             this.textBox47.TabIndex = 19;
             this.textBox47.Text = "ppeito.345@pepito.org.co";
+            this.textBox47.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox47.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label52
             // 
@@ -3483,6 +3404,8 @@
             this.textBox48.Size = new System.Drawing.Size(229, 17);
             this.textBox48.TabIndex = 18;
             this.textBox48.Text = "3123206278 -56";
+            this.textBox48.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox48.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label53
             // 
@@ -3505,6 +3428,8 @@
             this.textBox49.Size = new System.Drawing.Size(229, 17);
             this.textBox49.TabIndex = 17;
             this.textBox49.Text = "Director de IT";
+            this.textBox49.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox49.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label54
             // 
@@ -3527,6 +3452,8 @@
             this.textBox50.Size = new System.Drawing.Size(229, 17);
             this.textBox50.TabIndex = 15;
             this.textBox50.Text = "Don Pepito Ramirez de Peña";
+            this.textBox50.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox50.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox18
             // 
@@ -3615,6 +3542,7 @@
             this.toolStripButton14.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton14.Text = "[-]";
             this.toolStripButton14.ToolTipText = "Minimizar";
+            this.toolStripButton14.Click += new System.EventHandler(this.minimizarTarea_Click);
             // 
             // toolStripLabel8
             // 
@@ -3651,6 +3579,7 @@
             this.toolStripButton15.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
             this.toolStripButton15.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton15.Text = "Urgente";
+            this.toolStripButton15.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton19
             // 
@@ -3665,6 +3594,7 @@
             this.toolStripButton19.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton19.Text = "Atención";
             this.toolStripButton19.ToolTipText = "Atención";
+            this.toolStripButton19.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton34
             // 
@@ -3679,6 +3609,7 @@
             this.toolStripButton34.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton34.Text = "Normal";
             this.toolStripButton34.ToolTipText = "Normal";
+            this.toolStripButton34.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton35
             // 
@@ -3693,6 +3624,7 @@
             this.toolStripButton35.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton35.Text = "Finalizada";
             this.toolStripButton35.ToolTipText = "Finalizada";
+            this.toolStripButton35.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton36
             // 
@@ -3758,6 +3690,9 @@
             this.textBox52.Size = new System.Drawing.Size(364, 17);
             this.textBox52.TabIndex = 6;
             this.textBox52.Text = "Tarea 1";
+            this.textBox52.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox52.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox52.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label57
             // 
@@ -3833,6 +3768,8 @@
             this.textBox56.Size = new System.Drawing.Size(229, 17);
             this.textBox56.TabIndex = 19;
             this.textBox56.Text = "ppeito.345@pepito.org.co";
+            this.textBox56.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox56.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label60
             // 
@@ -3855,6 +3792,8 @@
             this.textBox57.Size = new System.Drawing.Size(229, 17);
             this.textBox57.TabIndex = 18;
             this.textBox57.Text = "3123206278 -56";
+            this.textBox57.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox57.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label61
             // 
@@ -3877,6 +3816,8 @@
             this.textBox58.Size = new System.Drawing.Size(229, 17);
             this.textBox58.TabIndex = 17;
             this.textBox58.Text = "Director de IT";
+            this.textBox58.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox58.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label64
             // 
@@ -3899,6 +3840,8 @@
             this.textBox59.Size = new System.Drawing.Size(229, 17);
             this.textBox59.TabIndex = 15;
             this.textBox59.Text = "Don Pepito Ramirez de Peña";
+            this.textBox59.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox59.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox21
             // 
@@ -3986,6 +3929,7 @@
             this.toolStripButton38.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton38.Text = "[-]";
             this.toolStripButton38.ToolTipText = "Minimizar";
+            this.toolStripButton38.Click += new System.EventHandler(this.minimizarTarea_Click);
             // 
             // toolStripLabel15
             // 
@@ -4022,6 +3966,7 @@
             this.toolStripButton39.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
             this.toolStripButton39.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton39.Text = "Urgente";
+            this.toolStripButton39.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton40
             // 
@@ -4036,6 +3981,7 @@
             this.toolStripButton40.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton40.Text = "Atención";
             this.toolStripButton40.ToolTipText = "Atención";
+            this.toolStripButton40.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton41
             // 
@@ -4050,6 +3996,7 @@
             this.toolStripButton41.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton41.Text = "Normal";
             this.toolStripButton41.ToolTipText = "Normal";
+            this.toolStripButton41.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton42
             // 
@@ -4064,6 +4011,7 @@
             this.toolStripButton42.Size = new System.Drawing.Size(18, 18);
             this.toolStripButton42.Text = "Finalizada";
             this.toolStripButton42.ToolTipText = "Finalizada";
+            this.toolStripButton42.Click += new System.EventHandler(this.CambiarEstado_tarea);
             // 
             // toolStripButton43
             // 
@@ -4237,6 +4185,8 @@
             this.textBox61.Size = new System.Drawing.Size(229, 17);
             this.textBox61.TabIndex = 22;
             this.textBox61.Text = "ppeito.345@pepito.org.co";
+            this.textBox61.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox61.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label68
             // 
@@ -4259,6 +4209,8 @@
             this.textBox62.Size = new System.Drawing.Size(229, 17);
             this.textBox62.TabIndex = 19;
             this.textBox62.Text = "+57 3123206278";
+            this.textBox62.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox62.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label69
             // 
@@ -4281,6 +4233,8 @@
             this.textBox63.Size = new System.Drawing.Size(229, 17);
             this.textBox63.TabIndex = 18;
             this.textBox63.Text = "+571 5586697 ext 458";
+            this.textBox63.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox63.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label70
             // 
@@ -4303,6 +4257,8 @@
             this.textBox64.Size = new System.Drawing.Size(229, 17);
             this.textBox64.TabIndex = 17;
             this.textBox64.Text = "Director de IT";
+            this.textBox64.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox64.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label71
             // 
@@ -4325,6 +4281,9 @@
             this.textBox65.Size = new System.Drawing.Size(229, 17);
             this.textBox65.TabIndex = 15;
             this.textBox65.Text = "Don Pepito Ramirez de Peña";
+            this.textBox65.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox65.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox65.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox23
             // 
@@ -4384,6 +4343,7 @@
             this.toolStripButton48.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton48.Text = "[-]";
             this.toolStripButton48.ToolTipText = "Minimizar";
+            this.toolStripButton48.Click += new System.EventHandler(this.minimizarContacto_Click);
             // 
             // toolStripLabel18
             // 
@@ -4474,6 +4434,8 @@
             this.textBox67.Size = new System.Drawing.Size(229, 17);
             this.textBox67.TabIndex = 22;
             this.textBox67.Text = "ppeito.345@pepito.org.co";
+            this.textBox67.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox67.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label74
             // 
@@ -4496,6 +4458,8 @@
             this.textBox68.Size = new System.Drawing.Size(229, 17);
             this.textBox68.TabIndex = 19;
             this.textBox68.Text = "+57 3123206278";
+            this.textBox68.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox68.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label75
             // 
@@ -4518,6 +4482,8 @@
             this.textBox69.Size = new System.Drawing.Size(229, 17);
             this.textBox69.TabIndex = 18;
             this.textBox69.Text = "+571 5586697 ext 458";
+            this.textBox69.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox69.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label76
             // 
@@ -4540,6 +4506,8 @@
             this.textBox70.Size = new System.Drawing.Size(229, 17);
             this.textBox70.TabIndex = 17;
             this.textBox70.Text = "Director de IT";
+            this.textBox70.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox70.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label77
             // 
@@ -4562,6 +4530,9 @@
             this.textBox71.Size = new System.Drawing.Size(229, 17);
             this.textBox71.TabIndex = 15;
             this.textBox71.Text = "Don Pepito Ramirez de Peña";
+            this.textBox71.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox71.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox71.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox25
             // 
@@ -4621,6 +4592,7 @@
             this.toolStripButton50.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton50.Text = "[-]";
             this.toolStripButton50.ToolTipText = "Minimizar";
+            this.toolStripButton50.Click += new System.EventHandler(this.minimizarContacto_Click);
             // 
             // toolStripLabel19
             // 
@@ -4711,6 +4683,8 @@
             this.textBox73.Size = new System.Drawing.Size(229, 17);
             this.textBox73.TabIndex = 22;
             this.textBox73.Text = "ppeito.345@pepito.org.co";
+            this.textBox73.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox73.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label80
             // 
@@ -4733,6 +4707,8 @@
             this.textBox74.Size = new System.Drawing.Size(229, 17);
             this.textBox74.TabIndex = 19;
             this.textBox74.Text = "+57 3123206278";
+            this.textBox74.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox74.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label81
             // 
@@ -4755,6 +4731,8 @@
             this.textBox75.Size = new System.Drawing.Size(229, 17);
             this.textBox75.TabIndex = 18;
             this.textBox75.Text = "+571 5586697 ext 458";
+            this.textBox75.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox75.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label82
             // 
@@ -4777,6 +4755,8 @@
             this.textBox76.Size = new System.Drawing.Size(229, 17);
             this.textBox76.TabIndex = 17;
             this.textBox76.Text = "Director de IT";
+            this.textBox76.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox76.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label83
             // 
@@ -4799,6 +4779,9 @@
             this.textBox77.Size = new System.Drawing.Size(229, 17);
             this.textBox77.TabIndex = 15;
             this.textBox77.Text = "Don Pepito Ramirez de Peña";
+            this.textBox77.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox77.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox77.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox27
             // 
@@ -4858,6 +4841,7 @@
             this.toolStripButton52.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton52.Text = "[-]";
             this.toolStripButton52.ToolTipText = "Minimizar";
+            this.toolStripButton52.Click += new System.EventHandler(this.minimizarContacto_Click);
             // 
             // toolStripLabel20
             // 
@@ -5139,8 +5123,10 @@
             this.textBox79.Name = "textBox79";
             this.textBox79.Size = new System.Drawing.Size(412, 22);
             this.textBox79.TabIndex = 9;
-            this.textBox79.Text = "Empresa Pepito";
+            this.textBox79.Text = "3Secure";
             this.textBox79.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Cliente);
+            this.textBox79.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox79.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // textBox80
             // 
@@ -5152,6 +5138,8 @@
             this.textBox80.Size = new System.Drawing.Size(229, 17);
             this.textBox80.TabIndex = 8;
             this.textBox80.Text = "Directo";
+            this.textBox80.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox80.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // checkBox3
             // 
@@ -5256,6 +5244,8 @@
             this.textBox82.Size = new System.Drawing.Size(229, 17);
             this.textBox82.TabIndex = 7;
             this.textBox82.Text = "ppeito.345@pepito.org.co";
+            this.textBox82.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox82.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // dateTimePicker7
             // 
@@ -5301,6 +5291,8 @@
             this.textBox83.Size = new System.Drawing.Size(137, 17);
             this.textBox83.TabIndex = 6;
             this.textBox83.Text = "3123206278 -56";
+            this.textBox83.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox83.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label91
             // 
@@ -5323,6 +5315,8 @@
             this.textBox84.Size = new System.Drawing.Size(229, 17);
             this.textBox84.TabIndex = 5;
             this.textBox84.Text = "Director de IT";
+            this.textBox84.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox84.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label92
             // 
@@ -5345,6 +5339,8 @@
             this.textBox85.Size = new System.Drawing.Size(229, 17);
             this.textBox85.TabIndex = 4;
             this.textBox85.Text = "Don Pepito Ramirez de Peña";
+            this.textBox85.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox85.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox30
             // 
@@ -5435,6 +5431,8 @@
             this.textBox86.TabIndex = 6;
             this.textBox86.Text = "Tarea 1";
             this.textBox86.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox86.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox86.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label93
             // 
@@ -5510,6 +5508,8 @@
             this.textBox88.Size = new System.Drawing.Size(229, 17);
             this.textBox88.TabIndex = 19;
             this.textBox88.Text = "ppeito.345@pepito.org.co";
+            this.textBox88.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox88.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label96
             // 
@@ -5532,6 +5532,8 @@
             this.textBox89.Size = new System.Drawing.Size(229, 17);
             this.textBox89.TabIndex = 18;
             this.textBox89.Text = "3123206278 -56";
+            this.textBox89.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox89.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label97
             // 
@@ -5554,6 +5556,8 @@
             this.textBox90.Size = new System.Drawing.Size(229, 17);
             this.textBox90.TabIndex = 17;
             this.textBox90.Text = "Director de IT";
+            this.textBox90.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox90.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label98
             // 
@@ -5576,6 +5580,8 @@
             this.textBox91.Size = new System.Drawing.Size(229, 17);
             this.textBox91.TabIndex = 15;
             this.textBox91.Text = "Don Pepito Ramirez de Peña";
+            this.textBox91.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox91.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox33
             // 
@@ -5811,8 +5817,10 @@
             this.textBox93.Name = "textBox93";
             this.textBox93.Size = new System.Drawing.Size(364, 17);
             this.textBox93.TabIndex = 6;
-            this.textBox93.Text = "Tarea 1";
+            this.textBox93.Text = "Tarea 2";
             this.textBox93.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox93.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox93.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label101
             // 
@@ -5888,6 +5896,8 @@
             this.textBox95.Size = new System.Drawing.Size(229, 17);
             this.textBox95.TabIndex = 19;
             this.textBox95.Text = "ppeito.345@pepito.org.co";
+            this.textBox95.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox95.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label104
             // 
@@ -5910,6 +5920,8 @@
             this.textBox96.Size = new System.Drawing.Size(229, 17);
             this.textBox96.TabIndex = 18;
             this.textBox96.Text = "3123206278 -56";
+            this.textBox96.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox96.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label105
             // 
@@ -5932,6 +5944,8 @@
             this.textBox97.Size = new System.Drawing.Size(229, 17);
             this.textBox97.TabIndex = 17;
             this.textBox97.Text = "Director de IT";
+            this.textBox97.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox97.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label106
             // 
@@ -5954,6 +5968,8 @@
             this.textBox98.Size = new System.Drawing.Size(229, 17);
             this.textBox98.TabIndex = 15;
             this.textBox98.Text = "Don Pepito Ramirez de Peña";
+            this.textBox98.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox98.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox36
             // 
@@ -6048,7 +6064,7 @@
             this.toolStripLabel27.BackColor = System.Drawing.Color.Transparent;
             this.toolStripLabel27.Name = "toolStripLabel27";
             this.toolStripLabel27.Size = new System.Drawing.Size(45, 22);
-            this.toolStripLabel27.Text = "Tarea 1";
+            this.toolStripLabel27.Text = "Tarea 2";
             // 
             // toolStripLabel28
             // 
@@ -6297,6 +6313,8 @@
             this.textBox100.Size = new System.Drawing.Size(229, 17);
             this.textBox100.TabIndex = 22;
             this.textBox100.Text = "ppeito.345@pepito.org.co";
+            this.textBox100.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox100.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label110
             // 
@@ -6319,6 +6337,8 @@
             this.textBox101.Size = new System.Drawing.Size(229, 17);
             this.textBox101.TabIndex = 19;
             this.textBox101.Text = "+57 3123206278";
+            this.textBox101.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox101.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label111
             // 
@@ -6341,6 +6361,8 @@
             this.textBox102.Size = new System.Drawing.Size(229, 17);
             this.textBox102.TabIndex = 18;
             this.textBox102.Text = "+571 5586697 ext 458";
+            this.textBox102.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox102.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label112
             // 
@@ -6363,6 +6385,8 @@
             this.textBox103.Size = new System.Drawing.Size(229, 17);
             this.textBox103.TabIndex = 17;
             this.textBox103.Text = "Director de IT";
+            this.textBox103.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox103.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label113
             // 
@@ -6386,6 +6410,8 @@
             this.textBox104.TabIndex = 15;
             this.textBox104.Text = "Don Pepito Ramirez de Peña";
             this.textBox104.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox104.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox104.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox38
             // 
@@ -6536,6 +6562,8 @@
             this.textBox106.Size = new System.Drawing.Size(229, 17);
             this.textBox106.TabIndex = 22;
             this.textBox106.Text = "ppeito.345@pepito.org.co";
+            this.textBox106.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox106.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label116
             // 
@@ -6558,6 +6586,8 @@
             this.textBox107.Size = new System.Drawing.Size(229, 17);
             this.textBox107.TabIndex = 19;
             this.textBox107.Text = "+57 3123206278";
+            this.textBox107.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox107.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label117
             // 
@@ -6580,6 +6610,8 @@
             this.textBox108.Size = new System.Drawing.Size(229, 17);
             this.textBox108.TabIndex = 18;
             this.textBox108.Text = "+571 5586697 ext 458";
+            this.textBox108.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox108.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label118
             // 
@@ -6602,6 +6634,8 @@
             this.textBox109.Size = new System.Drawing.Size(229, 17);
             this.textBox109.TabIndex = 17;
             this.textBox109.Text = "Director de IT";
+            this.textBox109.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox109.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label119
             // 
@@ -6625,6 +6659,8 @@
             this.textBox110.TabIndex = 15;
             this.textBox110.Text = "Don Pepito Ramirez de Peña";
             this.textBox110.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox110.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox110.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox40
             // 
@@ -6775,6 +6811,8 @@
             this.textBox112.Size = new System.Drawing.Size(229, 17);
             this.textBox112.TabIndex = 22;
             this.textBox112.Text = "ppeito.345@pepito.org.co";
+            this.textBox112.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox112.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label122
             // 
@@ -6797,6 +6835,8 @@
             this.textBox113.Size = new System.Drawing.Size(229, 17);
             this.textBox113.TabIndex = 19;
             this.textBox113.Text = "+57 3123206278";
+            this.textBox113.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox113.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label123
             // 
@@ -6819,6 +6859,8 @@
             this.textBox114.Size = new System.Drawing.Size(229, 17);
             this.textBox114.TabIndex = 18;
             this.textBox114.Text = "+571 5586697 ext 458";
+            this.textBox114.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox114.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label124
             // 
@@ -6841,6 +6883,8 @@
             this.textBox115.Size = new System.Drawing.Size(229, 17);
             this.textBox115.TabIndex = 17;
             this.textBox115.Text = "Director de IT";
+            this.textBox115.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox115.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // label125
             // 
@@ -6864,6 +6908,8 @@
             this.textBox116.TabIndex = 15;
             this.textBox116.Text = "Don Pepito Ramirez de Peña";
             this.textBox116.TextChanged += new System.EventHandler(this.textBox_CambiarNombre_Tarea);
+            this.textBox116.Enter += new System.EventHandler(this.textbox_click);
+            this.textBox116.Leave += new System.EventHandler(this.textBox_leave);
             // 
             // groupBox42
             // 
@@ -7045,8 +7091,8 @@
             // 
             this.toolStripLabel33.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripLabel33.Name = "toolStripLabel33";
-            this.toolStripLabel33.Size = new System.Drawing.Size(93, 22);
-            this.toolStripLabel33.Text = "Empresa Pepito";
+            this.toolStripLabel33.Size = new System.Drawing.Size(53, 22);
+            this.toolStripLabel33.Text = "3Secure";
             // 
             // toolStripLabel34
             // 
@@ -7122,6 +7168,133 @@
             this.toolStripButton93.Text = "X";
             this.toolStripButton93.ToolTipText = "Eliminar Cliente";
             // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.AutoSize = false;
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton20.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
+            this.toolStripButton20.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton20.Text = "[-]";
+            this.toolStripButton20.ToolTipText = "Minimizar";
+            this.toolStripButton20.Click += new System.EventHandler(this.minimizarTarea_Click);
+            // 
+            // toolStripLabel10
+            // 
+            this.toolStripLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripLabel10.Name = "toolStripLabel10";
+            this.toolStripLabel10.Size = new System.Drawing.Size(45, 22);
+            this.toolStripLabel10.Text = "Tarea 2";
+            // 
+            // toolStripLabel11
+            // 
+            this.toolStripLabel11.Name = "toolStripLabel11";
+            this.toolStripLabel11.Size = new System.Drawing.Size(0, 22);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel12
+            // 
+            this.toolStripLabel12.Name = "toolStripLabel12";
+            this.toolStripLabel12.Size = new System.Drawing.Size(96, 22);
+            this.toolStripLabel12.Text = "Cambiar estado: ";
+            // 
+            // toolStripButton23
+            // 
+            this.toolStripButton23.AutoSize = false;
+            this.toolStripButton23.BackColor = System.Drawing.Color.Firebrick;
+            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
+            this.toolStripButton23.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton23.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton23.Name = "toolStripButton23";
+            this.toolStripButton23.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton23.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton23.Text = "Urgente";
+            this.toolStripButton23.Click += new System.EventHandler(this.CambiarEstado_click);
+            // 
+            // toolStripButton24
+            // 
+            this.toolStripButton24.AutoSize = false;
+            this.toolStripButton24.BackColor = System.Drawing.Color.DarkOrange;
+            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton24.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton24.Image")));
+            this.toolStripButton24.ImageTransparentColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton24.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton24.Name = "toolStripButton24";
+            this.toolStripButton24.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton24.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton24.Text = "Atención";
+            this.toolStripButton24.ToolTipText = "Atención";
+            this.toolStripButton24.Click += new System.EventHandler(this.CambiarEstado_click);
+            // 
+            // toolStripButton25
+            // 
+            this.toolStripButton25.AutoSize = false;
+            this.toolStripButton25.BackColor = System.Drawing.Color.Linen;
+            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton25.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton25.Image")));
+            this.toolStripButton25.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton25.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton25.Name = "toolStripButton25";
+            this.toolStripButton25.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton25.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton25.Text = "Normal";
+            this.toolStripButton25.ToolTipText = "Normal";
+            this.toolStripButton25.Click += new System.EventHandler(this.CambiarEstado_click);
+            // 
+            // toolStripButton26
+            // 
+            this.toolStripButton26.AutoSize = false;
+            this.toolStripButton26.BackColor = System.Drawing.Color.DarkGreen;
+            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton26.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton26.Image")));
+            this.toolStripButton26.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton26.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton26.Name = "toolStripButton26";
+            this.toolStripButton26.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton26.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton26.Text = "Finalizada";
+            this.toolStripButton26.ToolTipText = "Finalizada";
+            this.toolStripButton26.Click += new System.EventHandler(this.CambiarEstado_click);
+            // 
+            // toolStripButton27
+            // 
+            this.toolStripButton27.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton27.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton27.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripButton27.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton27.Image")));
+            this.toolStripButton27.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton27.Name = "toolStripButton27";
+            this.toolStripButton27.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton27.Text = "X";
+            this.toolStripButton27.ToolTipText = "Eliminar tarea";
+            // 
+            // toolStrip5
+            // 
+            this.toolStrip5.BackColor = System.Drawing.Color.ForestGreen;
+            this.toolStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton20,
+            this.toolStripLabel10,
+            this.toolStripLabel11,
+            this.toolStripSeparator8,
+            this.toolStripLabel12,
+            this.toolStripButton23,
+            this.toolStripButton24,
+            this.toolStripButton25,
+            this.toolStripButton26,
+            this.toolStripButton27});
+            this.toolStrip5.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip5.Name = "toolStrip5";
+            this.toolStrip5.Size = new System.Drawing.Size(1038, 25);
+            this.toolStrip5.TabIndex = 0;
+            this.toolStrip5.Text = "toolStrip5";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -7183,8 +7356,6 @@
             this.groupBox11.PerformLayout();
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
-            this.toolStrip5.ResumeLayout(false);
-            this.toolStrip5.PerformLayout();
             this.toolStripTareas.ResumeLayout(false);
             this.toolStripTareas.PerformLayout();
             this.tabPageContacto.ResumeLayout(false);
@@ -7424,6 +7595,8 @@
             this.toolStrip20.PerformLayout();
             this.toolStrip21.ResumeLayout(false);
             this.toolStrip21.PerformLayout();
+            this.toolStrip5.ResumeLayout(false);
+            this.toolStrip5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -7543,17 +7716,6 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.DateTimePicker dateTimePicker4;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.ToolStrip toolStrip5;
-        private System.Windows.Forms.ToolStripButton toolStripButton20;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel10;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel11;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel12;
-        private System.Windows.Forms.ToolStripButton toolStripButton23;
-        private System.Windows.Forms.ToolStripButton toolStripButton24;
-        private System.Windows.Forms.ToolStripButton toolStripButton25;
-        private System.Windows.Forms.ToolStripButton toolStripButton26;
-        private System.Windows.Forms.ToolStripButton toolStripButton27;
         private System.Windows.Forms.ToolStrip toolStripContacto;
         private System.Windows.Forms.ToolStripButton toolStripButton28;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
@@ -7977,6 +8139,17 @@
         private System.Windows.Forms.ToolStripButton toolStripButton60;
         private System.Windows.Forms.ToolStripButton toolStripButton61;
         private System.Windows.Forms.ToolStripButton toolStripButton62;
+        private System.Windows.Forms.ToolStrip toolStrip5;
+        private System.Windows.Forms.ToolStripButton toolStripButton20;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel10;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel11;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel12;
+        private System.Windows.Forms.ToolStripButton toolStripButton23;
+        private System.Windows.Forms.ToolStripButton toolStripButton24;
+        private System.Windows.Forms.ToolStripButton toolStripButton25;
+        private System.Windows.Forms.ToolStripButton toolStripButton26;
+        private System.Windows.Forms.ToolStripButton toolStripButton27;
     }
 }
 
