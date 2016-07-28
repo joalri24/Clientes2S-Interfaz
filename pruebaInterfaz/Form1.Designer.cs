@@ -191,14 +191,14 @@
             this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripTareas = new System.Windows.Forms.ToolStrip();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPageContacto = new System.Windows.Forms.TabPage();
             this.toolStripCliente = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -209,6 +209,96 @@
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStripComboBox_Estado = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripContacto = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton28 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton29 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton31 = new System.Windows.Forms.ToolStripButton();
+            this.flowLayoutContactos = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelContacto = new System.Windows.Forms.Panel();
+            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel13 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton37 = new System.Windows.Forms.ToolStripButton();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.dateTimePicker7 = new System.Windows.Forms.DateTimePicker();
+            this.label53 = new System.Windows.Forms.Label();
+            this.toolStrip6 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton38 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel16 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel17 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel18 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton39 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton40 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton41 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton42 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton43 = new System.Windows.Forms.ToolStripButton();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.splitContainer5 = new System.Windows.Forms.SplitContainer();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.groupBox19 = new System.Windows.Forms.GroupBox();
+            this.textBox53 = new System.Windows.Forms.TextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.dateTimePicker8 = new System.Windows.Forms.DateTimePicker();
+            this.label61 = new System.Windows.Forms.Label();
+            this.toolStrip7 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton44 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel19 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel20 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel21 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton45 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton46 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton47 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton48 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton49 = new System.Windows.Forms.ToolStripButton();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.textBox54 = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
             this.menuStrip2.SuspendLayout();
             this.toolStripVentana.SuspendLayout();
             this.tableLayoutClientes.SuspendLayout();
@@ -252,8 +342,37 @@
             this.groupBox11.SuspendLayout();
             this.groupBox12.SuspendLayout();
             this.toolStrip5.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
+            this.toolStripTareas.SuspendLayout();
+            this.tabPageContacto.SuspendLayout();
             this.toolStripCliente.SuspendLayout();
+            this.toolStripContacto.SuspendLayout();
+            this.flowLayoutContactos.SuspendLayout();
+            this.panelContacto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
+            this.splitContainer3.Panel2.SuspendLayout();
+            this.splitContainer3.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.Panel2.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.groupBox16.SuspendLayout();
+            this.toolStrip6.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).BeginInit();
+            this.splitContainer5.Panel1.SuspendLayout();
+            this.splitContainer5.Panel2.SuspendLayout();
+            this.splitContainer5.SuspendLayout();
+            this.groupBox17.SuspendLayout();
+            this.groupBox18.SuspendLayout();
+            this.groupBox19.SuspendLayout();
+            this.toolStrip7.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip2
@@ -676,7 +795,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage7);
+            this.tabControl1.Controls.Add(this.tabPageContacto);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 25);
             this.tabControl1.Name = "tabControl1";
@@ -977,7 +1096,7 @@
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
             this.tabPage2.Controls.Add(this.flowLayoutTarea);
-            this.tabPage2.Controls.Add(this.toolStrip1);
+            this.tabPage2.Controls.Add(this.toolStripTareas);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -1388,6 +1507,7 @@
             // 
             // panel2
             // 
+            this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.splitContainer1);
             this.panel2.Controls.Add(this.toolStrip4);
             this.panel2.Location = new System.Drawing.Point(3, 284);
@@ -2138,22 +2258,22 @@
             this.toolStripButton27.Text = "X";
             this.toolStripButton27.ToolTipText = "Eliminar tarea";
             // 
-            // toolStrip1
+            // toolStripTareas
             // 
-            this.toolStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripTareas.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.toolStripTareas.Dock = System.Windows.Forms.DockStyle.Left;
+            this.toolStripTareas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton3,
             this.toolStripSeparator5,
             this.toolStripButton7,
             this.toolStripButton8,
             this.toolStripSeparator6,
             this.toolStripButton9});
-            this.toolStrip1.Location = new System.Drawing.Point(3, 3);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(25, 289);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
+            this.toolStripTareas.Location = new System.Drawing.Point(3, 3);
+            this.toolStripTareas.Name = "toolStripTareas";
+            this.toolStripTareas.Size = new System.Drawing.Size(25, 289);
+            this.toolStripTareas.TabIndex = 0;
+            this.toolStripTareas.Text = "toolStrip1";
             // 
             // toolStripButton3
             // 
@@ -2203,15 +2323,17 @@
             this.toolStripButton9.Size = new System.Drawing.Size(22, 20);
             this.toolStripButton9.Text = "Minimizar todas";
             // 
-            // tabPage7
+            // tabPageContacto
             // 
-            this.tabPage7.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1091, 295);
-            this.tabPage7.TabIndex = 2;
-            this.tabPage7.Text = "Contactos";
+            this.tabPageContacto.BackColor = System.Drawing.Color.Transparent;
+            this.tabPageContacto.Controls.Add(this.flowLayoutContactos);
+            this.tabPageContacto.Controls.Add(this.toolStripContacto);
+            this.tabPageContacto.Location = new System.Drawing.Point(4, 22);
+            this.tabPageContacto.Name = "tabPageContacto";
+            this.tabPageContacto.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageContacto.Size = new System.Drawing.Size(1091, 295);
+            this.tabPageContacto.TabIndex = 2;
+            this.tabPageContacto.Text = "Contactos";
             // 
             // toolStripCliente
             // 
@@ -2327,6 +2449,1037 @@
             this.toolStripComboBox_Estado.ToolTipText = "El estado de urgencia del cliente.";
             this.toolStripComboBox_Estado.TextChanged += new System.EventHandler(this.CambiarEstado_changeText);
             // 
+            // toolStripContacto
+            // 
+            this.toolStripContacto.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.toolStripContacto.Dock = System.Windows.Forms.DockStyle.Left;
+            this.toolStripContacto.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton28,
+            this.toolStripSeparator9,
+            this.toolStripButton29,
+            this.toolStripButton30,
+            this.toolStripSeparator10,
+            this.toolStripButton31});
+            this.toolStripContacto.Location = new System.Drawing.Point(3, 3);
+            this.toolStripContacto.Name = "toolStripContacto";
+            this.toolStripContacto.Size = new System.Drawing.Size(24, 289);
+            this.toolStripContacto.TabIndex = 1;
+            this.toolStripContacto.Text = "toolStrip1";
+            // 
+            // toolStripButton28
+            // 
+            this.toolStripButton28.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton28.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.toolStripButton28.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton28.Image")));
+            this.toolStripButton28.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton28.Name = "toolStripButton28";
+            this.toolStripButton28.Size = new System.Drawing.Size(21, 24);
+            this.toolStripButton28.Text = "-";
+            this.toolStripButton28.ToolTipText = "Nueva tarea";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(21, 6);
+            // 
+            // toolStripButton29
+            // 
+            this.toolStripButton29.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton29.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton29.Image")));
+            this.toolStripButton29.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton29.Name = "toolStripButton29";
+            this.toolStripButton29.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton29.Text = "Ordernar alfabéticamente";
+            // 
+            // toolStripButton30
+            // 
+            this.toolStripButton30.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton30.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton30.Image")));
+            this.toolStripButton30.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton30.Name = "toolStripButton30";
+            this.toolStripButton30.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton30.Text = "Ordenar por estado";
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(21, 6);
+            // 
+            // toolStripButton31
+            // 
+            this.toolStripButton31.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton31.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton31.Image")));
+            this.toolStripButton31.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton31.Name = "toolStripButton31";
+            this.toolStripButton31.Size = new System.Drawing.Size(21, 20);
+            this.toolStripButton31.Text = "Minimizar todas";
+            // 
+            // flowLayoutContactos
+            // 
+            this.flowLayoutContactos.AutoScroll = true;
+            this.flowLayoutContactos.BackColor = System.Drawing.SystemColors.Control;
+            this.flowLayoutContactos.Controls.Add(this.panelContacto);
+            this.flowLayoutContactos.Controls.Add(this.panel5);
+            this.flowLayoutContactos.Controls.Add(this.panel6);
+            this.flowLayoutContactos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutContactos.Location = new System.Drawing.Point(27, 3);
+            this.flowLayoutContactos.Name = "flowLayoutContactos";
+            this.flowLayoutContactos.Size = new System.Drawing.Size(1061, 289);
+            this.flowLayoutContactos.TabIndex = 2;
+            // 
+            // panelContacto
+            // 
+            this.panelContacto.Controls.Add(this.splitContainer3);
+            this.panelContacto.Controls.Add(this.toolStrip1);
+            this.panelContacto.Location = new System.Drawing.Point(3, 3);
+            this.panelContacto.Name = "panelContacto";
+            this.panelContacto.Size = new System.Drawing.Size(1038, 168);
+            this.panelContacto.TabIndex = 0;
+            // 
+            // splitContainer3
+            // 
+            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer3.Location = new System.Drawing.Point(0, 25);
+            this.splitContainer3.Name = "splitContainer3";
+            // 
+            // splitContainer3.Panel1
+            // 
+            this.splitContainer3.Panel1.Controls.Add(this.groupBox4);
+            this.splitContainer3.Panel1MinSize = 500;
+            // 
+            // splitContainer3.Panel2
+            // 
+            this.splitContainer3.Panel2.AutoScroll = true;
+            this.splitContainer3.Panel2.Controls.Add(this.groupBox13);
+            this.splitContainer3.Size = new System.Drawing.Size(1038, 143);
+            this.splitContainer3.SplitterDistance = 509;
+            this.splitContainer3.TabIndex = 1;
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.AutoSize = true;
+            this.groupBox13.Controls.Add(this.textBox35);
+            this.groupBox13.Controls.Add(this.label45);
+            this.groupBox13.ForeColor = System.Drawing.Color.Brown;
+            this.groupBox13.Location = new System.Drawing.Point(3, 3);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(512, 134);
+            this.groupBox13.TabIndex = 0;
+            this.groupBox13.TabStop = false;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.Brown;
+            this.label45.Location = new System.Drawing.Point(6, 16);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(52, 18);
+            this.label45.TabIndex = 2;
+            this.label45.Text = "Notas:";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.Color.Gainsboro;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton32,
+            this.toolStripLabel13,
+            this.toolStripButton37});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1038, 25);
+            this.toolStrip1.TabIndex = 0;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButton32
+            // 
+            this.toolStripButton32.AutoSize = false;
+            this.toolStripButton32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton32.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripButton32.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton32.Image")));
+            this.toolStripButton32.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton32.Name = "toolStripButton32";
+            this.toolStripButton32.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton32.Text = "[-]";
+            this.toolStripButton32.ToolTipText = "Minimizar";
+            // 
+            // toolStripLabel13
+            // 
+            this.toolStripLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripLabel13.Name = "toolStripLabel13";
+            this.toolStripLabel13.Size = new System.Drawing.Size(41, 22);
+            this.toolStripLabel13.Text = "Pepito";
+            // 
+            // toolStripButton37
+            // 
+            this.toolStripButton37.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton37.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton37.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripButton37.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton37.Image")));
+            this.toolStripButton37.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton37.Name = "toolStripButton37";
+            this.toolStripButton37.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton37.Text = "X";
+            this.toolStripButton37.ToolTipText = "Eliminar tarea";
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.splitContainer4);
+            this.panel5.Controls.Add(this.toolStrip6);
+            this.panel5.Location = new System.Drawing.Point(3, 177);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1038, 275);
+            this.panel5.TabIndex = 1;
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.Location = new System.Drawing.Point(0, 25);
+            this.splitContainer4.Name = "splitContainer4";
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.groupBox14);
+            this.splitContainer4.Panel1MinSize = 500;
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.AutoScroll = true;
+            this.splitContainer4.Panel2.Controls.Add(this.groupBox15);
+            this.splitContainer4.Panel2.Controls.Add(this.groupBox16);
+            this.splitContainer4.Size = new System.Drawing.Size(1038, 250);
+            this.splitContainer4.SplitterDistance = 509;
+            this.splitContainer4.TabIndex = 1;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.textBox40);
+            this.groupBox14.Controls.Add(this.label46);
+            this.groupBox14.Controls.Add(this.textBox41);
+            this.groupBox14.Controls.Add(this.label47);
+            this.groupBox14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox14.Location = new System.Drawing.Point(0, 0);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(509, 250);
+            this.groupBox14.TabIndex = 0;
+            this.groupBox14.TabStop = false;
+            // 
+            // textBox40
+            // 
+            this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox40.Location = new System.Drawing.Point(133, 28);
+            this.textBox40.MaxLength = 30;
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(364, 17);
+            this.textBox40.TabIndex = 6;
+            this.textBox40.Text = "Tarea 1";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.Brown;
+            this.label46.Location = new System.Drawing.Point(6, 28);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(66, 18);
+            this.label46.TabIndex = 4;
+            this.label46.Text = "Nombre:";
+            // 
+            // textBox41
+            // 
+            this.textBox41.AcceptsReturn = true;
+            this.textBox41.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox41.Location = new System.Drawing.Point(9, 75);
+            this.textBox41.Multiline = true;
+            this.textBox41.Name = "textBox41";
+            this.textBox41.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox41.Size = new System.Drawing.Size(488, 155);
+            this.textBox41.TabIndex = 3;
+            this.textBox41.Text = "Realizar una tarea.";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.Brown;
+            this.label47.Location = new System.Drawing.Point(6, 54);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(91, 18);
+            this.label47.TabIndex = 2;
+            this.label47.Text = "Descripción:";
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.AutoSize = true;
+            this.groupBox15.Controls.Add(this.label48);
+            this.groupBox15.Controls.Add(this.textBox42);
+            this.groupBox15.Controls.Add(this.label49);
+            this.groupBox15.Controls.Add(this.textBox43);
+            this.groupBox15.Controls.Add(this.label50);
+            this.groupBox15.Controls.Add(this.textBox44);
+            this.groupBox15.Controls.Add(this.label51);
+            this.groupBox15.Controls.Add(this.textBox45);
+            this.groupBox15.ForeColor = System.Drawing.Color.Brown;
+            this.groupBox15.Location = new System.Drawing.Point(3, 97);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(509, 133);
+            this.groupBox15.TabIndex = 1;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "Contacto";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.Brown;
+            this.label48.Location = new System.Drawing.Point(6, 97);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(59, 18);
+            this.label48.TabIndex = 21;
+            this.label48.Text = "Correo:";
+            // 
+            // textBox42
+            // 
+            this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox42.Location = new System.Drawing.Point(161, 97);
+            this.textBox42.MaxLength = 30;
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(229, 17);
+            this.textBox42.TabIndex = 19;
+            this.textBox42.Text = "ppeito.345@pepito.org.co";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.Brown;
+            this.label49.Location = new System.Drawing.Point(6, 74);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(70, 18);
+            this.label49.TabIndex = 20;
+            this.label49.Text = "Teléfono:";
+            // 
+            // textBox43
+            // 
+            this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox43.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox43.Location = new System.Drawing.Point(161, 74);
+            this.textBox43.MaxLength = 30;
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(229, 17);
+            this.textBox43.TabIndex = 18;
+            this.textBox43.Text = "3123206278 -56";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.Brown;
+            this.label50.Location = new System.Drawing.Point(6, 51);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(53, 18);
+            this.label50.TabIndex = 16;
+            this.label50.Text = "Cargo:";
+            // 
+            // textBox44
+            // 
+            this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox44.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox44.Location = new System.Drawing.Point(161, 51);
+            this.textBox44.MaxLength = 30;
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(229, 17);
+            this.textBox44.TabIndex = 17;
+            this.textBox44.Text = "Director de IT";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.Brown;
+            this.label51.Location = new System.Drawing.Point(6, 28);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(66, 18);
+            this.label51.TabIndex = 14;
+            this.label51.Text = "Nombre:";
+            // 
+            // textBox45
+            // 
+            this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox45.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox45.Location = new System.Drawing.Point(161, 28);
+            this.textBox45.MaxLength = 30;
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(229, 17);
+            this.textBox45.TabIndex = 15;
+            this.textBox45.Text = "Don Pepito Ramirez de Peña";
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.AutoSize = true;
+            this.groupBox16.Controls.Add(this.textBox46);
+            this.groupBox16.Controls.Add(this.label52);
+            this.groupBox16.Controls.Add(this.dateTimePicker7);
+            this.groupBox16.Controls.Add(this.label53);
+            this.groupBox16.ForeColor = System.Drawing.Color.Brown;
+            this.groupBox16.Location = new System.Drawing.Point(3, 3);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(509, 88);
+            this.groupBox16.TabIndex = 0;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "Estado";
+            // 
+            // textBox46
+            // 
+            this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox46.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox46.Location = new System.Drawing.Point(161, 52);
+            this.textBox46.MaxLength = 30;
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(229, 17);
+            this.textBox46.TabIndex = 5;
+            this.textBox46.Text = "Urgente";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.Brown;
+            this.label52.Location = new System.Drawing.Point(6, 52);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(59, 18);
+            this.label52.TabIndex = 4;
+            this.label52.Text = "Estado.";
+            // 
+            // dateTimePicker7
+            // 
+            this.dateTimePicker7.Location = new System.Drawing.Point(161, 26);
+            this.dateTimePicker7.Name = "dateTimePicker7";
+            this.dateTimePicker7.Size = new System.Drawing.Size(229, 20);
+            this.dateTimePicker7.TabIndex = 3;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.Brown;
+            this.label53.Location = new System.Drawing.Point(6, 25);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(53, 18);
+            this.label53.TabIndex = 2;
+            this.label53.Text = "Fecha:";
+            // 
+            // toolStrip6
+            // 
+            this.toolStrip6.BackColor = System.Drawing.Color.SandyBrown;
+            this.toolStrip6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton38,
+            this.toolStripLabel16,
+            this.toolStripLabel17,
+            this.toolStripSeparator12,
+            this.toolStripLabel18,
+            this.toolStripButton39,
+            this.toolStripButton40,
+            this.toolStripButton41,
+            this.toolStripButton42,
+            this.toolStripButton43});
+            this.toolStrip6.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip6.Name = "toolStrip6";
+            this.toolStrip6.Size = new System.Drawing.Size(1038, 25);
+            this.toolStrip6.TabIndex = 0;
+            this.toolStrip6.Text = "toolStrip6";
+            // 
+            // toolStripButton38
+            // 
+            this.toolStripButton38.AutoSize = false;
+            this.toolStripButton38.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton38.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripButton38.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton38.Image")));
+            this.toolStripButton38.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton38.Name = "toolStripButton38";
+            this.toolStripButton38.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton38.Text = "[-]";
+            this.toolStripButton38.ToolTipText = "Minimizar";
+            // 
+            // toolStripLabel16
+            // 
+            this.toolStripLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripLabel16.Name = "toolStripLabel16";
+            this.toolStripLabel16.Size = new System.Drawing.Size(45, 22);
+            this.toolStripLabel16.Text = "Tarea 1";
+            // 
+            // toolStripLabel17
+            // 
+            this.toolStripLabel17.Name = "toolStripLabel17";
+            this.toolStripLabel17.Size = new System.Drawing.Size(0, 22);
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel18
+            // 
+            this.toolStripLabel18.Name = "toolStripLabel18";
+            this.toolStripLabel18.Size = new System.Drawing.Size(96, 22);
+            this.toolStripLabel18.Text = "Cambiar estado: ";
+            // 
+            // toolStripButton39
+            // 
+            this.toolStripButton39.AutoSize = false;
+            this.toolStripButton39.BackColor = System.Drawing.Color.Firebrick;
+            this.toolStripButton39.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton39.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton39.Image")));
+            this.toolStripButton39.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton39.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton39.Name = "toolStripButton39";
+            this.toolStripButton39.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton39.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton39.Text = "Urgente";
+            // 
+            // toolStripButton40
+            // 
+            this.toolStripButton40.AutoSize = false;
+            this.toolStripButton40.BackColor = System.Drawing.Color.DarkOrange;
+            this.toolStripButton40.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton40.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton40.Image")));
+            this.toolStripButton40.ImageTransparentColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton40.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton40.Name = "toolStripButton40";
+            this.toolStripButton40.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton40.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton40.Text = "Atención";
+            this.toolStripButton40.ToolTipText = "Atención";
+            // 
+            // toolStripButton41
+            // 
+            this.toolStripButton41.AutoSize = false;
+            this.toolStripButton41.BackColor = System.Drawing.Color.Linen;
+            this.toolStripButton41.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton41.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton41.Image")));
+            this.toolStripButton41.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton41.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton41.Name = "toolStripButton41";
+            this.toolStripButton41.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton41.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton41.Text = "Normal";
+            this.toolStripButton41.ToolTipText = "Normal";
+            // 
+            // toolStripButton42
+            // 
+            this.toolStripButton42.AutoSize = false;
+            this.toolStripButton42.BackColor = System.Drawing.Color.DarkGreen;
+            this.toolStripButton42.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton42.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton42.Image")));
+            this.toolStripButton42.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton42.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton42.Name = "toolStripButton42";
+            this.toolStripButton42.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton42.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton42.Text = "Finalizada";
+            this.toolStripButton42.ToolTipText = "Finalizada";
+            // 
+            // toolStripButton43
+            // 
+            this.toolStripButton43.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton43.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton43.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripButton43.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton43.Image")));
+            this.toolStripButton43.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton43.Name = "toolStripButton43";
+            this.toolStripButton43.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton43.Text = "X";
+            this.toolStripButton43.ToolTipText = "Eliminar tarea";
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.splitContainer5);
+            this.panel6.Controls.Add(this.toolStrip7);
+            this.panel6.Location = new System.Drawing.Point(3, 458);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1038, 275);
+            this.panel6.TabIndex = 2;
+            // 
+            // splitContainer5
+            // 
+            this.splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer5.Location = new System.Drawing.Point(0, 25);
+            this.splitContainer5.Name = "splitContainer5";
+            // 
+            // splitContainer5.Panel1
+            // 
+            this.splitContainer5.Panel1.Controls.Add(this.groupBox17);
+            this.splitContainer5.Panel1MinSize = 500;
+            // 
+            // splitContainer5.Panel2
+            // 
+            this.splitContainer5.Panel2.AutoScroll = true;
+            this.splitContainer5.Panel2.Controls.Add(this.groupBox18);
+            this.splitContainer5.Panel2.Controls.Add(this.groupBox19);
+            this.splitContainer5.Size = new System.Drawing.Size(1038, 250);
+            this.splitContainer5.SplitterDistance = 509;
+            this.splitContainer5.TabIndex = 1;
+            // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.textBox47);
+            this.groupBox17.Controls.Add(this.label54);
+            this.groupBox17.Controls.Add(this.textBox48);
+            this.groupBox17.Controls.Add(this.label55);
+            this.groupBox17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox17.Location = new System.Drawing.Point(0, 0);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(509, 250);
+            this.groupBox17.TabIndex = 0;
+            this.groupBox17.TabStop = false;
+            // 
+            // textBox47
+            // 
+            this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox47.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox47.Location = new System.Drawing.Point(133, 28);
+            this.textBox47.MaxLength = 30;
+            this.textBox47.Name = "textBox47";
+            this.textBox47.Size = new System.Drawing.Size(364, 17);
+            this.textBox47.TabIndex = 6;
+            this.textBox47.Text = "Tarea 1";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.Brown;
+            this.label54.Location = new System.Drawing.Point(6, 28);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(66, 18);
+            this.label54.TabIndex = 4;
+            this.label54.Text = "Nombre:";
+            // 
+            // textBox48
+            // 
+            this.textBox48.AcceptsReturn = true;
+            this.textBox48.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox48.Location = new System.Drawing.Point(9, 75);
+            this.textBox48.Multiline = true;
+            this.textBox48.Name = "textBox48";
+            this.textBox48.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox48.Size = new System.Drawing.Size(488, 155);
+            this.textBox48.TabIndex = 3;
+            this.textBox48.Text = "Realizar una tarea.";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.Brown;
+            this.label55.Location = new System.Drawing.Point(6, 54);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(91, 18);
+            this.label55.TabIndex = 2;
+            this.label55.Text = "Descripción:";
+            // 
+            // groupBox18
+            // 
+            this.groupBox18.AutoSize = true;
+            this.groupBox18.Controls.Add(this.label56);
+            this.groupBox18.Controls.Add(this.textBox49);
+            this.groupBox18.Controls.Add(this.label57);
+            this.groupBox18.Controls.Add(this.textBox50);
+            this.groupBox18.Controls.Add(this.label58);
+            this.groupBox18.Controls.Add(this.textBox51);
+            this.groupBox18.Controls.Add(this.label59);
+            this.groupBox18.Controls.Add(this.textBox52);
+            this.groupBox18.ForeColor = System.Drawing.Color.Brown;
+            this.groupBox18.Location = new System.Drawing.Point(3, 97);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(509, 133);
+            this.groupBox18.TabIndex = 1;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Contacto";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.Brown;
+            this.label56.Location = new System.Drawing.Point(6, 97);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(59, 18);
+            this.label56.TabIndex = 21;
+            this.label56.Text = "Correo:";
+            // 
+            // textBox49
+            // 
+            this.textBox49.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox49.Location = new System.Drawing.Point(161, 97);
+            this.textBox49.MaxLength = 30;
+            this.textBox49.Name = "textBox49";
+            this.textBox49.Size = new System.Drawing.Size(229, 17);
+            this.textBox49.TabIndex = 19;
+            this.textBox49.Text = "ppeito.345@pepito.org.co";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.Brown;
+            this.label57.Location = new System.Drawing.Point(6, 74);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(70, 18);
+            this.label57.TabIndex = 20;
+            this.label57.Text = "Teléfono:";
+            // 
+            // textBox50
+            // 
+            this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox50.Location = new System.Drawing.Point(161, 74);
+            this.textBox50.MaxLength = 30;
+            this.textBox50.Name = "textBox50";
+            this.textBox50.Size = new System.Drawing.Size(229, 17);
+            this.textBox50.TabIndex = 18;
+            this.textBox50.Text = "3123206278 -56";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.Brown;
+            this.label58.Location = new System.Drawing.Point(6, 51);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(53, 18);
+            this.label58.TabIndex = 16;
+            this.label58.Text = "Cargo:";
+            // 
+            // textBox51
+            // 
+            this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox51.Location = new System.Drawing.Point(161, 51);
+            this.textBox51.MaxLength = 30;
+            this.textBox51.Name = "textBox51";
+            this.textBox51.Size = new System.Drawing.Size(229, 17);
+            this.textBox51.TabIndex = 17;
+            this.textBox51.Text = "Director de IT";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.Brown;
+            this.label59.Location = new System.Drawing.Point(6, 28);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(66, 18);
+            this.label59.TabIndex = 14;
+            this.label59.Text = "Nombre:";
+            // 
+            // textBox52
+            // 
+            this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox52.Location = new System.Drawing.Point(161, 28);
+            this.textBox52.MaxLength = 30;
+            this.textBox52.Name = "textBox52";
+            this.textBox52.Size = new System.Drawing.Size(229, 17);
+            this.textBox52.TabIndex = 15;
+            this.textBox52.Text = "Don Pepito Ramirez de Peña";
+            // 
+            // groupBox19
+            // 
+            this.groupBox19.AutoSize = true;
+            this.groupBox19.Controls.Add(this.textBox53);
+            this.groupBox19.Controls.Add(this.label60);
+            this.groupBox19.Controls.Add(this.dateTimePicker8);
+            this.groupBox19.Controls.Add(this.label61);
+            this.groupBox19.ForeColor = System.Drawing.Color.Brown;
+            this.groupBox19.Location = new System.Drawing.Point(3, 3);
+            this.groupBox19.Name = "groupBox19";
+            this.groupBox19.Size = new System.Drawing.Size(509, 88);
+            this.groupBox19.TabIndex = 0;
+            this.groupBox19.TabStop = false;
+            this.groupBox19.Text = "Estado";
+            // 
+            // textBox53
+            // 
+            this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox53.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox53.Location = new System.Drawing.Point(161, 52);
+            this.textBox53.MaxLength = 30;
+            this.textBox53.Name = "textBox53";
+            this.textBox53.Size = new System.Drawing.Size(229, 17);
+            this.textBox53.TabIndex = 5;
+            this.textBox53.Text = "Urgente";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.Brown;
+            this.label60.Location = new System.Drawing.Point(6, 52);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(59, 18);
+            this.label60.TabIndex = 4;
+            this.label60.Text = "Estado.";
+            // 
+            // dateTimePicker8
+            // 
+            this.dateTimePicker8.Location = new System.Drawing.Point(161, 26);
+            this.dateTimePicker8.Name = "dateTimePicker8";
+            this.dateTimePicker8.Size = new System.Drawing.Size(229, 20);
+            this.dateTimePicker8.TabIndex = 3;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.Brown;
+            this.label61.Location = new System.Drawing.Point(6, 25);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(53, 18);
+            this.label61.TabIndex = 2;
+            this.label61.Text = "Fecha:";
+            // 
+            // toolStrip7
+            // 
+            this.toolStrip7.BackColor = System.Drawing.Color.ForestGreen;
+            this.toolStrip7.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton44,
+            this.toolStripLabel19,
+            this.toolStripLabel20,
+            this.toolStripSeparator13,
+            this.toolStripLabel21,
+            this.toolStripButton45,
+            this.toolStripButton46,
+            this.toolStripButton47,
+            this.toolStripButton48,
+            this.toolStripButton49});
+            this.toolStrip7.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip7.Name = "toolStrip7";
+            this.toolStrip7.Size = new System.Drawing.Size(1038, 25);
+            this.toolStrip7.TabIndex = 0;
+            this.toolStrip7.Text = "toolStrip7";
+            // 
+            // toolStripButton44
+            // 
+            this.toolStripButton44.AutoSize = false;
+            this.toolStripButton44.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton44.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripButton44.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton44.Image")));
+            this.toolStripButton44.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton44.Name = "toolStripButton44";
+            this.toolStripButton44.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton44.Text = "[-]";
+            this.toolStripButton44.ToolTipText = "Minimizar";
+            // 
+            // toolStripLabel19
+            // 
+            this.toolStripLabel19.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripLabel19.Name = "toolStripLabel19";
+            this.toolStripLabel19.Size = new System.Drawing.Size(45, 22);
+            this.toolStripLabel19.Text = "Tarea 1";
+            // 
+            // toolStripLabel20
+            // 
+            this.toolStripLabel20.Name = "toolStripLabel20";
+            this.toolStripLabel20.Size = new System.Drawing.Size(0, 22);
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel21
+            // 
+            this.toolStripLabel21.Name = "toolStripLabel21";
+            this.toolStripLabel21.Size = new System.Drawing.Size(96, 22);
+            this.toolStripLabel21.Text = "Cambiar estado: ";
+            // 
+            // toolStripButton45
+            // 
+            this.toolStripButton45.AutoSize = false;
+            this.toolStripButton45.BackColor = System.Drawing.Color.Firebrick;
+            this.toolStripButton45.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton45.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton45.Image")));
+            this.toolStripButton45.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton45.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton45.Name = "toolStripButton45";
+            this.toolStripButton45.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton45.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton45.Text = "Urgente";
+            // 
+            // toolStripButton46
+            // 
+            this.toolStripButton46.AutoSize = false;
+            this.toolStripButton46.BackColor = System.Drawing.Color.DarkOrange;
+            this.toolStripButton46.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton46.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton46.Image")));
+            this.toolStripButton46.ImageTransparentColor = System.Drawing.Color.SandyBrown;
+            this.toolStripButton46.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton46.Name = "toolStripButton46";
+            this.toolStripButton46.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton46.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton46.Text = "Atención";
+            this.toolStripButton46.ToolTipText = "Atención";
+            // 
+            // toolStripButton47
+            // 
+            this.toolStripButton47.AutoSize = false;
+            this.toolStripButton47.BackColor = System.Drawing.Color.Linen;
+            this.toolStripButton47.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton47.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton47.Image")));
+            this.toolStripButton47.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton47.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton47.Name = "toolStripButton47";
+            this.toolStripButton47.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton47.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton47.Text = "Normal";
+            this.toolStripButton47.ToolTipText = "Normal";
+            // 
+            // toolStripButton48
+            // 
+            this.toolStripButton48.AutoSize = false;
+            this.toolStripButton48.BackColor = System.Drawing.Color.DarkGreen;
+            this.toolStripButton48.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.toolStripButton48.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton48.Image")));
+            this.toolStripButton48.ImageTransparentColor = System.Drawing.Color.Red;
+            this.toolStripButton48.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
+            this.toolStripButton48.Name = "toolStripButton48";
+            this.toolStripButton48.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
+            this.toolStripButton48.Size = new System.Drawing.Size(18, 18);
+            this.toolStripButton48.Text = "Finalizada";
+            this.toolStripButton48.ToolTipText = "Finalizada";
+            // 
+            // toolStripButton49
+            // 
+            this.toolStripButton49.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton49.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton49.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripButton49.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton49.Image")));
+            this.toolStripButton49.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton49.Name = "toolStripButton49";
+            this.toolStripButton49.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton49.Text = "X";
+            this.toolStripButton49.ToolTipText = "Eliminar tarea";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.AutoSize = true;
+            this.groupBox4.Controls.Add(this.label38);
+            this.groupBox4.Controls.Add(this.textBox33);
+            this.groupBox4.Controls.Add(this.label39);
+            this.groupBox4.Controls.Add(this.textBox34);
+            this.groupBox4.Controls.Add(this.label62);
+            this.groupBox4.Controls.Add(this.textBox54);
+            this.groupBox4.Controls.Add(this.label63);
+            this.groupBox4.Controls.Add(this.textBox55);
+            this.groupBox4.ForeColor = System.Drawing.Color.Brown;
+            this.groupBox4.Location = new System.Drawing.Point(3, 3);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(506, 133);
+            this.groupBox4.TabIndex = 2;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Contacto";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.Brown;
+            this.label38.Location = new System.Drawing.Point(6, 97);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(59, 18);
+            this.label38.TabIndex = 21;
+            this.label38.Text = "Correo:";
+            // 
+            // textBox33
+            // 
+            this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox33.Location = new System.Drawing.Point(161, 97);
+            this.textBox33.MaxLength = 30;
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(229, 17);
+            this.textBox33.TabIndex = 19;
+            this.textBox33.Text = "ppeito.345@pepito.org.co";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.Brown;
+            this.label39.Location = new System.Drawing.Point(6, 74);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(70, 18);
+            this.label39.TabIndex = 20;
+            this.label39.Text = "Teléfono:";
+            // 
+            // textBox34
+            // 
+            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox34.Location = new System.Drawing.Point(161, 74);
+            this.textBox34.MaxLength = 30;
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(229, 17);
+            this.textBox34.TabIndex = 18;
+            this.textBox34.Text = "3123206278 -56";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.Brown;
+            this.label62.Location = new System.Drawing.Point(6, 51);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(53, 18);
+            this.label62.TabIndex = 16;
+            this.label62.Text = "Cargo:";
+            // 
+            // textBox54
+            // 
+            this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox54.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox54.Location = new System.Drawing.Point(161, 51);
+            this.textBox54.MaxLength = 30;
+            this.textBox54.Name = "textBox54";
+            this.textBox54.Size = new System.Drawing.Size(229, 17);
+            this.textBox54.TabIndex = 17;
+            this.textBox54.Text = "Director de IT";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.Brown;
+            this.label63.Location = new System.Drawing.Point(6, 28);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(66, 18);
+            this.label63.TabIndex = 14;
+            this.label63.Text = "Nombre:";
+            // 
+            // textBox55
+            // 
+            this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox55.Location = new System.Drawing.Point(161, 28);
+            this.textBox55.MaxLength = 30;
+            this.textBox55.Name = "textBox55";
+            this.textBox55.Size = new System.Drawing.Size(229, 17);
+            this.textBox55.TabIndex = 15;
+            this.textBox55.Text = "Don Pepito Ramirez de Peña";
+            // 
+            // textBox35
+            // 
+            this.textBox35.AcceptsReturn = true;
+            this.textBox35.Location = new System.Drawing.Point(6, 37);
+            this.textBox35.Multiline = true;
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(500, 78);
+            this.textBox35.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2413,10 +3566,59 @@
             this.groupBox12.PerformLayout();
             this.toolStrip5.ResumeLayout(false);
             this.toolStrip5.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
+            this.toolStripTareas.ResumeLayout(false);
+            this.toolStripTareas.PerformLayout();
+            this.tabPageContacto.ResumeLayout(false);
+            this.tabPageContacto.PerformLayout();
             this.toolStripCliente.ResumeLayout(false);
             this.toolStripCliente.PerformLayout();
+            this.toolStripContacto.ResumeLayout(false);
+            this.toolStripContacto.PerformLayout();
+            this.flowLayoutContactos.ResumeLayout(false);
+            this.panelContacto.ResumeLayout(false);
+            this.panelContacto.PerformLayout();
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel1.PerformLayout();
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            this.splitContainer3.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            this.splitContainer4.Panel2.ResumeLayout(false);
+            this.splitContainer4.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox16.PerformLayout();
+            this.toolStrip6.ResumeLayout(false);
+            this.toolStrip6.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.splitContainer5.Panel1.ResumeLayout(false);
+            this.splitContainer5.Panel2.ResumeLayout(false);
+            this.splitContainer5.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
+            this.splitContainer5.ResumeLayout(false);
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox17.PerformLayout();
+            this.groupBox18.ResumeLayout(false);
+            this.groupBox18.PerformLayout();
+            this.groupBox19.ResumeLayout(false);
+            this.groupBox19.PerformLayout();
+            this.toolStrip7.ResumeLayout(false);
+            this.toolStrip7.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2451,7 +3653,7 @@
         private System.Windows.Forms.ToolStrip toolStripCliente;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TabPage tabPageContacto;
         private System.Windows.Forms.TableLayoutPanel tableLayoutResumen;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -2476,7 +3678,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButton6;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStrip toolStripTareas;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripButton toolStripButton7;
         private System.Windows.Forms.ToolStripButton toolStripButton8;
@@ -2603,6 +3805,96 @@
         private System.Windows.Forms.ToolStripButton toolStripButton25;
         private System.Windows.Forms.ToolStripButton toolStripButton26;
         private System.Windows.Forms.ToolStripButton toolStripButton27;
+        private System.Windows.Forms.ToolStrip toolStripContacto;
+        private System.Windows.Forms.ToolStripButton toolStripButton28;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripButton toolStripButton29;
+        private System.Windows.Forms.ToolStripButton toolStripButton30;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
+        private System.Windows.Forms.ToolStripButton toolStripButton31;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutContactos;
+        private System.Windows.Forms.Panel panelContacto;
+        private System.Windows.Forms.SplitContainer splitContainer3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.TextBox textBox54;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.TextBox textBox55;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton32;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel13;
+        private System.Windows.Forms.ToolStripButton toolStripButton37;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.SplitContainer splitContainer4;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.GroupBox groupBox16;
+        private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.DateTimePicker dateTimePicker7;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.ToolStrip toolStrip6;
+        private System.Windows.Forms.ToolStripButton toolStripButton38;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel16;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel17;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel18;
+        private System.Windows.Forms.ToolStripButton toolStripButton39;
+        private System.Windows.Forms.ToolStripButton toolStripButton40;
+        private System.Windows.Forms.ToolStripButton toolStripButton41;
+        private System.Windows.Forms.ToolStripButton toolStripButton42;
+        private System.Windows.Forms.ToolStripButton toolStripButton43;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.SplitContainer splitContainer5;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.TextBox textBox47;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.TextBox textBox48;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.GroupBox groupBox18;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.TextBox textBox49;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.TextBox textBox50;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.TextBox textBox51;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox textBox52;
+        private System.Windows.Forms.GroupBox groupBox19;
+        private System.Windows.Forms.TextBox textBox53;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.DateTimePicker dateTimePicker8;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.ToolStrip toolStrip7;
+        private System.Windows.Forms.ToolStripButton toolStripButton44;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel19;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel20;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel21;
+        private System.Windows.Forms.ToolStripButton toolStripButton45;
+        private System.Windows.Forms.ToolStripButton toolStripButton46;
+        private System.Windows.Forms.ToolStripButton toolStripButton47;
+        private System.Windows.Forms.ToolStripButton toolStripButton48;
+        private System.Windows.Forms.ToolStripButton toolStripButton49;
     }
 }
 
