@@ -219,7 +219,7 @@ namespace pruebaInterfaz
             }
             else if (boton.Text == "Finalizada")
             {
-                barra.BackColor = Color.ForestGreen;
+                barra.BackColor = Color.OliveDrab;
                 boton.BackColor = Color.DarkGreen;
             }
 
@@ -240,11 +240,10 @@ namespace pruebaInterfaz
             // Obtener el panel padre del botón. El botón es hijo de una barra de herramientas,
             // que a su vez es hija del panel.
             Control panel = boton.GetCurrentParent().Parent as Control;
-            
 
             // El panel padre tiene una lista de controles: el primer elemento es un splitContainer.
             // El textbox que se quiere modificar se encuentra en el 2 panel de ese split container,
-            System.Collections.IEnumerator enumer = panelTarea.Controls.GetEnumerator();
+            System.Collections.IEnumerator enumer = panel.Controls.GetEnumerator();
             enumer.MoveNext();
             SplitContainer splitContainer = enumer.Current as SplitContainer;
 
